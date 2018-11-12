@@ -1,0 +1,26 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Biotop Advent Calendar"
+theme = "hugo-paper"
+[menu]
+
+  [[menu.main]]
+    identifier = "about this project"
+    name = "about this project"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    pre = "<i class='fa fa-heart'></i>"
+    url = ""
+    weight = -110
+
+  [[menu.main]]
+    name = "biotop website"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "http://biotop.co"
+    weight = -100
