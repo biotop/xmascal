@@ -1,0 +1,40 @@
+<div id="wrapper">
+  <div class="numberCircle">
+    <p>{{ .Params.number }}</p>
+  </div>
+</div>
+{{ $qrapi := delimit (slice "https://qrcode.tec-it.com/API/QRCode?data=" .Params.postUrl "&color=%23ffffff&backcolor=%23ffffff&istransparent=True") "" }}
+<div id="wrapper">
+  <div id="leftcolumn">
+    <div class="numberCircle">
+        <img src="{{ $qrapi }}" width="100px"/>
+    </div>
+  </div>
+  <div id="rightcolumn">
+      <h2 class="post-title" style="padding-top:30px">Read today's full story online</h2>
+      <p class="post-meta">
+      </p>
+  </div>
+</div>
+<div id="wrapper">
+  <div id="leftcolumn">
+    <div class="numberCircle">
+      <p>!?</p>
+    </div>
+  </div>
+  <div id="rightcolumn">
+      <h2 class="post-title" style="padding-top:30px">{{ .Params.call }}</h2>
+  </div>
+</div>
+<div id="wrapper">
+  <div id="leftcolumn">
+    <div class="numberCircle">
+      <i id="icon" class="fab fa-instagram"></i>
+    </div>
+  </div>
+  <div id="rightcolumn">
+      <h2 class="post-title" style="padding-top:50px">@biotop_science</h2>
+      <p class="post-meta">
+      </p>
+  </div>
+</div>

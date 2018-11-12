@@ -1,0 +1,22 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<article class="post post-view">
+  <header class="post-header">
+    {{ partial "post-header.html" . }}
+    <div class="single-header-image">
+      <img class="header-image" src="{{ .Params.headerimage }}"/>
+    </div>
+  </header>
+  <div class="post-content">{{ .Content }}</div>
+  {{ partial "interact.html" . }}
+  <footer class="post-footer">
+    {{ if .Params.tags }}
+    <ul class="post-tags">
+      {{ range .Params.tags }}
+      <li><a href="{{$.Site.BaseURL}}tags/{{ . | urlize }}/">{{ . }}</a></li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </footer>
+</article>
+{{ partial "footer.html" . }}
