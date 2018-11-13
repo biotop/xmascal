@@ -556,8 +556,10 @@ pre {
 
 .numberCircle > img, i {
   margin: -100%;
+  margin-top: -70%;
   position: relative;
   z-index: 100;
+  font-size: 0px;
 }
 
 #qr {
