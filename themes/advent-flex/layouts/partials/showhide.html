@@ -1,0 +1,19 @@
+<script>
+  $('#2').hide();
+  window.setInterval(function(){
+
+    var current = new Date();
+    console.log(current);
+
+    for(day = 0; day < 10; day++){
+      var expiry = new Date("November " + day + ",2018 23:59:00")
+      var id_today = "#" + day
+      if(current.getTime() < expiry){
+        $('.post').hide();
+        $(id_today).show();
+      }
+    }
+  }, 60000);
+
+  $('#one').show();
+</script>

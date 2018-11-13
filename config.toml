@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Biotop Advent Calendar"
-theme = "Advent"
+theme = "advent-flex"
 [menu]
 
   [[menu.main]]

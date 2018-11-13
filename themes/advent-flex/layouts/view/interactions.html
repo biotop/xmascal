@@ -1,0 +1,11 @@
+{{ partial "head.html" . }}
+{{ partial "noheader.html" . }}
+<article class="post post-view">
+  {{ range (where .Site.Pages ".Params.type" "=" "day") }}
+  <article id={{ .Params.number }} class="post first-entry">
+      {{ partial "interact.html" . }}
+  </article>
+  {{ end }}
+</article>
+{{ partial "nofooter.html" . }}
+{{ partial "showhide.html" }}

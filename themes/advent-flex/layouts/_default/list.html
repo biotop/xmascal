@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ partial "header.html" . }}
+  <main class="hg__main">
   {{ if not .IsHome }}
   <header class="list-header">
     {{ if eq .Data.Singular "tag" }}<span>Tagged in</span>
@@ -40,5 +40,6 @@
     </nav>
   </footer>
   {{ end }}
+  </main>
   {{ partial "footer.html" . }}
 {{ end }}
