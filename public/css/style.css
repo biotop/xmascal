@@ -11,15 +11,14 @@
 	grid-template-areas: "header header header"
 	                     "navigation main ads"
 	                     "footer footer footer";
-	/* grid-template-columns: 15vw 1fr 15vw; */
-	grid-template-columns: 1fr 850px 1fr;
+	grid-template-columns: 150px 1fr 150px;
 	grid-template-rows: 100px
 						1fr
 						30px;
 	min-height: 100vh;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 600px) {
 	.hg {
 		grid-template-areas: "header"
 		                     "navigation"
@@ -32,7 +31,6 @@
 							1fr
 							50px
 							30px;
-		padding: 15px;
 	}
 }
 
@@ -64,7 +62,7 @@ body {
   margin: 0;
   font-family: 'Libre Baskerville', serif;
   color: rgba(0, 0, 0, .8);
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
   display: grid;
 }
@@ -553,24 +551,15 @@ pre {
   color: #fff;
   text-align: center;
   font-family: 'Libre Baskerville' bold, cursive;
-  font-size: 72px;
-	margin-bottom: 20px;
+  font-size: 60px;
 }
 
-.numberCircle > img {
+.numberCircle > img, i {
   margin: -100%;
-  margin-top: -105%;
+  margin-top: -70%;
   position: relative;
   z-index: 100;
   font-size: 0px;
-}
-
-.numberCircle > i {
-  margin: -100%;
-	margin-top: -25%;
-  position: relative;
-  z-index: 100;
-  font-size: 70px;
 }
 
 #qr {
@@ -582,11 +571,11 @@ pre {
 }
 
 #wrapper {
-		display: inline-block;
-     min-height: 180px;
-     width: 100%;
+     height: 180px;
+     width: 100%
      margin: 0 auto;
-     margin-bottom: 20px;
+     padding-bottom: 20px;
+     display
 }
 #leftcolumn {
     float: left;
@@ -594,42 +583,7 @@ pre {
     margin-right: 20px;
 }
 #rightcolumn {
-		width: 80%
     padding-left: 20px;
-		display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-}
-
-#rightcolumn > h1, h2 {
-	font-size: 50px !important;
-}
-
-@media screen and (max-width: 800px) {
-
-	#leftcolumn {
-		width: 40%;
-		max-width: 170px;
-		margin:auto !important;
-		float: none !important;
-	}
-
-	.numberCircle {
-		font-size: 70px;
-	}
-
-	.post-meta {
-		text-align: center;
-	}
-
-	#rightcolumn > h1, h2 {
-		font-size: 30px !important;
-		text-align: center !important;
-	}
-
-	body {
-		font-size: 14px;
-	}
 }
 
 .header-image{
@@ -640,6 +594,7 @@ pre {
 }
 
 .single-header-image{
+  padding-top: 40px;
 }
 
 .center-tag {

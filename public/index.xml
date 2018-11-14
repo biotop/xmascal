@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biotop Advent Calendar</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Biotop Advent Calendar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Nov 2018 11:15:50 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interactions</title>
+      <link>http://example.org/interactions/</link>
+      <pubDate>Sat, 10 Nov 2018 11:15:50 +0100</pubDate>
+      
+      <guid>http://example.org/interactions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Textonly</title>
+      <link>http://example.org/textonly/</link>
+      <pubDate>Sat, 10 Nov 2018 11:15:50 +0100</pubDate>
+      
+      <guid>http://example.org/textonly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visonly</title>
+      <link>http://example.org/visonly/</link>
+      <pubDate>Sat, 10 Nov 2018 11:15:50 +0100</pubDate>
+      
+      <guid>http://example.org/visonly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Last Christmas and Spurious Correlations</title>
+      <link>http://example.org/days/01/</link>
+      <pubDate>Thu, 08 Nov 2018 17:02:52 +0100</pubDate>
+      
+      <guid>http://example.org/days/01/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>The Neuroscience of Earworms</title>
+      <link>http://example.org/days/02/</link>
+      <pubDate>Thu, 08 Nov 2018 17:02:52 +0100</pubDate>
+      
+      <guid>http://example.org/days/02/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu p</description>
+    </item>
+    
+  </channel>
+</rss>

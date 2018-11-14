@@ -1,40 +1,9 @@
-/*--------------------------------------------*/
-/*      CSS Grid Layout                       */
-/*--------------------------------------------*/
-.hg__header { grid-area: header; }
-.hg__footer { grid-area: footer; }
-.hg__main { grid-area: main; }
-.hg__left { grid-area: navigation; }
-.hg__right { grid-area: ads; }
-.hg {
-	display: grid;
-	grid-template-areas: "header header header"
-	                     "navigation main ads"
-	                     "footer footer footer";
-	/* grid-template-columns: 15vw 1fr 15vw; */
-	grid-template-columns: 1fr 850px 1fr;
-	grid-template-rows: 100px
-						1fr
-						30px;
-	min-height: 100vh;
-}
-
-@media screen and (max-width: 850px) {
-	.hg {
-		grid-template-areas: "header"
-		                     "navigation"
-		                     "main"
-		                     "ads"
-		                     "footer";
-		grid-template-columns: 100%;
-		grid-template-rows: 100px
-							50px
-							1fr
-							50px
-							30px;
-		padding: 15px;
-	}
-}
+/*
+ * Paper v2.0
+ * A simple & clean hugo theme
+ * Designed by 21beats (http://21beats.com)
+ * Updated in 2018.8.16
+ */
 
 /* Reset
 ============================================================= */
@@ -64,7 +33,7 @@ body {
   margin: 0;
   font-family: 'Libre Baskerville', serif;
   color: rgba(0, 0, 0, .8);
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
   display: grid;
 }
@@ -107,7 +76,6 @@ pre, code {
   font-family: Menlo, Consolas, monospace;
   font-size: inherit;
 }
-
 /* Body
 ============================================================= */
 .list {
@@ -193,7 +161,6 @@ pre, code {
 .menu a {
   font-size: 20px;
 }
-
 /* Main
 ======================================================================= */
 .main {
@@ -228,10 +195,24 @@ pre, code {
   padding-bottom: 30px;
 }
 .post-view {
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
-
+@media (max-width: 767px) {
+  .main {
+    min-height: calc(100vh - 155px);
+  }
+  .list-header,
+  .first-entry > *,
+  .post-entry,
+  .list-footer,
+  .post-view {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 /* List header
 ------------------------------ */
 .list-header span {
@@ -462,7 +443,12 @@ pre, code {
 .post-tags a:hover {
   background: #eee;
 }
-
+@media (max-width: 767px) {
+  .post-content blockquote {
+    margin: 0 0 0 -30px;
+    padding: 0 0 0 27px;
+  }
+}
 /* List footer
 ------------------------------ */
 .pagination {
@@ -498,6 +484,14 @@ pre, code {
 }
 .footer a:hover {
   text-decoration: underline;
+}
+@media (max-width: 767px) {
+  .footer span:last-child {
+    display: block;
+  }
+  .footer span:nth-child(4) {
+    display: none;
+  }
 }
 
 /* Highlight
@@ -541,36 +535,30 @@ pre {
 }
 
 .numberCircle {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  height: 0;
-  padding: 50% 0;
-  line-height: 0;
   border-radius: 50%;
+  behavior: url(PIE.htc);
+  /* remove if you don't care about IE8 */
+  width: 160px;
+  height: 160px;
   background: #e81e1e;
   border: 0px solid #e81e1e;
   color: #fff;
   text-align: center;
   font-family: 'Libre Baskerville' bold, cursive;
-  font-size: 72px;
-	margin-bottom: 20px;
+  font-size: 90px;
 }
 
-.numberCircle > img {
-  margin: -100%;
-  margin-top: -105%;
-  position: relative;
-  z-index: 100;
-  font-size: 0px;
+.numberCircle p {
+  padding-top: 8px
 }
 
-.numberCircle > i {
-  margin: -100%;
-	margin-top: -25%;
-  position: relative;
-  z-index: 100;
-  font-size: 70px;
+#icon {
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  padding: 33px 0;
 }
 
 #qr {
@@ -582,54 +570,19 @@ pre {
 }
 
 #wrapper {
-		display: inline-block;
-     min-height: 180px;
-     width: 100%;
+     width: 700px;
+     height: 180px;
      margin: 0 auto;
-     margin-bottom: 20px;
+     padding-bottom: 20px;
 }
 #leftcolumn {
     float: left;
-    width: 20%;
-    margin-right: 20px;
+    width: 160px;
 }
 #rightcolumn {
-		width: 80%
+    float: left;
     padding-left: 20px;
-		display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-}
-
-#rightcolumn > h1, h2 {
-	font-size: 50px !important;
-}
-
-@media screen and (max-width: 800px) {
-
-	#leftcolumn {
-		width: 40%;
-		max-width: 170px;
-		margin:auto !important;
-		float: none !important;
-	}
-
-	.numberCircle {
-		font-size: 70px;
-	}
-
-	.post-meta {
-		text-align: center;
-	}
-
-	#rightcolumn > h1, h2 {
-		font-size: 30px !important;
-		text-align: center !important;
-	}
-
-	body {
-		font-size: 14px;
-	}
+    width: 520px;
 }
 
 .header-image{
@@ -640,6 +593,7 @@ pre {
 }
 
 .single-header-image{
+  padding-top: 40px;
 }
 
 .center-tag {
@@ -665,4 +619,37 @@ pre {
 
 .main .noheader{
   padding-top: 0px;
+}
+
+.hg__header { grid-area: header; }
+.hg__footer { grid-area: footer; }
+.hg__main { grid-area: main; }
+.hg__left { grid-area: navigation; }
+.hg__right { grid-area: ads; }
+.hg {
+	display: grid;
+	grid-template-areas: "header header header"
+	                     "navigation main ads"
+	                     "footer footer footer";
+	grid-template-columns: 150px 1fr 150px;
+	grid-template-rows: 100px
+						1fr
+						30px;
+	min-height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+	.hg {
+		grid-template-areas: "header"
+		                     "navigation"
+		                     "main"
+		                     "ads"
+		                     "footer";
+		grid-template-columns: 100%;
+		grid-template-rows: 100px
+							50px
+							1fr
+							50px
+							30px;
+	}
 }

@@ -1,0 +1,139 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Basic styling
+ */
+body {
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.6;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 100%;
+  color: #111;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%; }
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+.highlight {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+/**
+ * Landing_page
+ */
+#landing_page {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100vw;
+  height: auto;}
+
+.background-image {
+  width: 100vw;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;}
+
+.grid-parent{
+  display: grid;
+  width: 63vw;
+  height: 50vw;
+  padding-left: 0vw;
+  margin-top: calc(1.2vw - 100px);
+  border-style: solid;
+  border-color: red;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+.grid-item{
+  border-style:dashed;
+  border-color:grey;
+  display: block;
+}
+
+a {
+  border-style:dashed;
+  border-color:grey;
+}
+
+.mobile-background-image {
+    display: none;
+    }
+
+#landing_circle {
+  margin-left: 15%;
+  width: 70%;
+  padding: 35% 0;
+  -ms-transform: rotate(-20deg); /* IE 9 */
+  -webkit-transform: rotate(-20deg); /* Safari */
+  transform: rotate(-20deg);
+}
+
+#landing_circle > img {
+  margin-top: -111.5% !important;
+}
+
+/**
+ * mobile-view
+ */
+
+
+@media screen and (max-width: 700px) {
+.background-image {
+  display: none;}
+
+.mobile-background-image {
+  display: inline;
+  width: 100vw;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;}
+
+.grid-parent{
+  display: grid;
+  width: 88vw;
+  height: 146vw;
+  padding-left: 9vw;
+  padding-top: 6vw;
+  border-style: solid;
+  border-color: blue;
+  grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+.grid-item{
+  display: block;
+  border-style:dashed;
+  border-color:green;}
+
+.hg__left, .hg__right {
+  display: none;
+}
+
+.title a {
+  margin-top: 0px;
+  font-size: 3vh;
+}
+
+/* img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+} */
