@@ -1,4 +1,4 @@
-baseURL = "http://biotop.co"
+baseURL = "http://biotop.co/xmascal/"
 languageCode = "en-us"
 title = "Biotop Advent Calendar"
 theme = "advent-flex"
