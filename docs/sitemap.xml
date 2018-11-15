@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/interactions/</loc>
+    <lastmod>2018-11-10T11:15:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/textonly/</loc>
+    <lastmod>2018-11-10T11:15:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/visonly/</loc>
+    <lastmod>2018-11-10T11:15:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/05/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/08/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/04/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/13/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/09/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/01/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/10/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/11/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/12/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/07/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/02/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/14/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/15/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/16/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/17/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/18/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/19/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/20/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/21/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/22/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/23/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/24/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/03/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/06/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2018-11-10T11:15:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/days/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
