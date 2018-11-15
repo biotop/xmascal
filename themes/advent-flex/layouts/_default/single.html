@@ -4,7 +4,7 @@
   <header class="post-header">
     {{ partial "post-header.html" . }}
     <div class="single-header-image">
-      <img class="header-image" src="{{ .Params.headerimage }}"/>
+      <img class="header-image" src="{{.Site.BaseURL}}img/{{ .Params.headerimage }}"/>
     </div>
   </header>
   <div class="post-content">{{ .Content }}</div>
