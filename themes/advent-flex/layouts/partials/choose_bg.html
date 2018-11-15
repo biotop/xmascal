@@ -1,0 +1,5 @@
+<script>
+  var today = new Date();
+  $(".background-image").attr("src","{{.Site.BaseURL}}img/background_desktop/D" + today.getDate() + ".png");
+  $(".mobile-background-image").attr("src","{{.Site.BaseURL}}img/background_mobile/D" + today.getDate() + ".png");
+</script>

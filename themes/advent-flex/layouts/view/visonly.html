@@ -3,6 +3,5 @@
   {{ range (where .Site.Pages ".Params.type" "=" "day") }}
   <img id={{ .Params.number }} src="{{ .Params.headerimage }}" alt="">
   {{ end }}
-
-{{ partial "nofooter.html" . }}
 {{ partial "showhide.html" }}
+{{ partial "nofooter.html" . }}

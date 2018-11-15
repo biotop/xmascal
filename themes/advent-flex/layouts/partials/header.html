@@ -4,6 +4,8 @@
     {{ else }}
     <p class="title"><a href="{{.Site.BaseURL}}/days">{{ .Site.Title }}</a></p>
     {{ end }}
+    {{ if .IsHome }}
+    {{else}}
     <button class="menu-toggle" type="button"></button>
     <nav class="menu">
       <ul>
@@ -15,4 +17,5 @@
         {{ end }}
       </ul>
     </nav>
+    {{ end }}
   </header>

@@ -8,7 +8,7 @@
     {{ end }}
   </header>
   {{ end }}
-  {{ $paginator := .Paginate (where .Pages ".Params.type" "=" "day") (index .Site.Params "paginate" | default 10) }}
+  {{ $paginator := .Paginate (where .Pages ".Params.type" "=" "day") (index .Site.Params "paginate" | default 24) }}
   {{ if gt $paginator.TotalPages 0 }}
   {{ range $index, $page := $paginator.Pages }}
   {{ if and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) }}
