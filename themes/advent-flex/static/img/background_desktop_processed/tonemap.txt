@@ -1,0 +1,9 @@
+# LuminanceHDR Tonemapping Setting file.
+# Editing this file by hand is risky, worst case scenario is Luminance crashing.
+# Please edit this file by hand only if you know what you're doing, in any case never change the left hand side text (i.e. the part before the ``='').
+TMOSETTINGSVERSION=0.6
+XSIZE=1994
+TMO=Ferradans11
+RHO=2.4
+INV_ALPHA=7.3
+PREGAMMA=0.91

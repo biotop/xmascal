@@ -1,8 +1,8 @@
   <header class="hg__header header">
     {{ if .IsHome }}
-    <h1 class="title"><a href="{{.Site.BaseURL}}/days">{{ .Site.Title }}</a></h1>
+    <h1 class="title"><a href="{{.Site.BaseURL}}{{ .LanguagePrefix }}/days">{{ .Site.Title }}</a></h1>
     {{ else }}
-    <p class="title"><a href="{{.Site.BaseURL}}/days">{{ .Site.Title }}</a></p>
+    <p class="title"><a href="{{.Site.BaseURL}}{{ .LanguagePrefix }}/days">{{ .Site.Title }}</a></p>
     {{ end }}
     {{ if .IsHome }}
     {{else}}

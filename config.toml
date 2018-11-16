@@ -3,8 +3,20 @@ languageCode = "en-us"
 title = "Biotop Advent Calendar"
 theme = "advent-flex"
 publishdir = "docs"
-[menu]
 
+[languages]
+  [languages.en]
+    title = "Biotop Christmas Calendar"
+    contentDir = "content/english"
+    languageName = "English"
+    weight = 10
+  [languages.de]
+    title = "Biotop Adventkalender"
+    contentDir = "content/german"
+    languageName = "Deutsch"
+    weight = 20
+
+[menu]
   [[menu.main]]
     identifier = "about this project"
     name = "about this project"

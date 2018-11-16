@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Days on Biotop Advent Calendar</title>
+    <title>Days on Biotop Christmas Calendar</title>
     <link>http://biotop.co/xmascal/days/</link>
-    <description>Recent content in Days on Biotop Advent Calendar</description>
+    <description>Recent content in Days on Biotop Christmas Calendar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Nov 2018 00:00:00 +0000</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>The Neuroscience of Earworms</title>
+      <title>Useful Applications of Leftover Giftwrapping Paper</title>
       <link>http://biotop.co/xmascal/days/16/</link>
       <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>The Neuroscience of Earworms</title>
+      <title>Gift Wrapping with Architects</title>
       <link>http://biotop.co/xmascal/days/15/</link>
       <pubDate>Thu, 15 Nov 2018 17:02:52 +0100</pubDate>
       
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>The Neuroscience of Earworms</title>
+      <title>Gingerbreadhouses and Architecture</title>
       <link>http://biotop.co/xmascal/days/14/</link>
       <pubDate>Wed, 14 Nov 2018 17:02:52 +0100</pubDate>
       
@@ -39,7 +39,7 @@
     </item>
     
     <item>
-      <title>Gingerbread Houses and Architecture</title>
+      <title>The Gingerbread House</title>
       <link>http://biotop.co/xmascal/days/13/</link>
       <pubDate>Tue, 13 Nov 2018 17:02:52 +0100</pubDate>
       
@@ -48,7 +48,7 @@
     </item>
     
     <item>
-      <title>The History of the Gingerbread House</title>
+      <title>Shine A Light</title>
       <link>http://biotop.co/xmascal/days/12/</link>
       <pubDate>Mon, 12 Nov 2018 17:02:52 +0100</pubDate>
       
@@ -57,7 +57,7 @@
     </item>
     
     <item>
-      <title>Shine A Light</title>
+      <title>The Travelling Santa Problem</title>
       <link>http://biotop.co/xmascal/days/11/</link>
       <pubDate>Sun, 11 Nov 2018 17:02:52 +0100</pubDate>
       
@@ -93,29 +93,20 @@
     </item>
     
     <item>
-      <title>The Neuroscience of Earworms</title>
-      <link>http://biotop.co/xmascal/days/17/</link>
-      <pubDate>Thu, 08 Nov 2018 17:02:52 +0100</pubDate>
-      
-      <guid>http://biotop.co/xmascal/days/17/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu p</description>
-    </item>
-    
-    <item>
-      <title>The Neuroscience of Earworms</title>
-      <link>http://biotop.co/xmascal/days/18/</link>
-      <pubDate>Thu, 08 Nov 2018 17:02:52 +0100</pubDate>
-      
-      <guid>http://biotop.co/xmascal/days/18/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu p</description>
-    </item>
-    
-    <item>
-      <title>The Neuroscience of Earworms</title>
+      <title>Holiday Stress</title>
       <link>http://biotop.co/xmascal/days/19/</link>
       <pubDate>Thu, 08 Nov 2018 17:02:52 +0100</pubDate>
       
       <guid>http://biotop.co/xmascal/days/19/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu p</description>
+    </item>
+    
+    <item>
+      <title>Keeping Warm</title>
+      <link>http://biotop.co/xmascal/days/18/</link>
+      <pubDate>Thu, 08 Nov 2018 17:02:52 +0100</pubDate>
+      
+      <guid>http://biotop.co/xmascal/days/18/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu p</description>
     </item>
     
@@ -165,7 +156,16 @@
     </item>
     
     <item>
-      <title>The Neuroscience of Advertising</title>
+      <title>The Psychology of Gifts</title>
+      <link>http://biotop.co/xmascal/days/17/</link>
+      <pubDate>Thu, 08 Nov 2018 17:02:52 +0100</pubDate>
+      
+      <guid>http://biotop.co/xmascal/days/17/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu p</description>
+    </item>
+    
+    <item>
+      <title>The Science of Manipulation</title>
       <link>http://biotop.co/xmascal/days/07/</link>
       <pubDate>Wed, 07 Nov 2018 17:02:52 +0100</pubDate>
       
@@ -174,7 +174,7 @@
     </item>
     
     <item>
-      <title>The Physics of Snowflakes</title>
+      <title>The Wonderful Physics of Snowflakes</title>
       <link>http://biotop.co/xmascal/days/06/</link>
       <pubDate>Tue, 06 Nov 2018 17:02:52 +0100</pubDate>
       
@@ -183,7 +183,7 @@
     </item>
     
     <item>
-      <title>Animated Short Film</title>
+      <title>Krampus</title>
       <link>http://biotop.co/xmascal/days/05/</link>
       <pubDate>Mon, 05 Nov 2018 17:02:52 +0100</pubDate>
       
@@ -210,7 +210,7 @@
     </item>
     
     <item>
-      <title>The Neuroscience of Earworms</title>
+      <title>Earwormology</title>
       <link>http://biotop.co/xmascal/days/02/</link>
       <pubDate>Fri, 02 Nov 2018 17:02:52 +0100</pubDate>
       
@@ -219,7 +219,7 @@
     </item>
     
     <item>
-      <title>Last Christmas and Spurious Correlations</title>
+      <title>Christmas and Spurious Statistical Correlations</title>
       <link>http://biotop.co/xmascal/days/01/</link>
       <pubDate>Thu, 01 Nov 2018 17:02:52 +0100</pubDate>
       
