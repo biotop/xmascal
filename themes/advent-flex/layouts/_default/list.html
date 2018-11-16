@@ -16,7 +16,7 @@
   {{ else }}
   {{ .Scratch.Set "postClass" "post-entry" }}
   {{ end }}
-  <article class="post {{ .Scratch.Get `postClass` }}">
+  <article class="post {{ .Scratch.Get `postClass` }}" id="article-{{ .Params.number }}">
     <header class="post-header">
       {{ partial "post-header.html" . }}
     </header>
@@ -41,5 +41,6 @@
   </footer>
   {{ end }}
   </main>
+  {{ partial "articleactivator.html" . }}
   {{ partial "footer.html" . }}
 {{ end }}

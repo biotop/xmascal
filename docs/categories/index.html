@@ -19,7 +19,7 @@
   <script src="http://biotop.co/xmascal/js/jquery-3.3.1.min.js"></script>
   
   <link rel="apple-touch-icon" href="http://biotop.co/xmascal/img/apple-touch-icon.png">
-  <link rel="icon" href="http://biotop.co/xmascal/img/favicon.ico">
+  <link rel="icon" href="http://biotop.co/xmascal/img/favicon-96x96.png">
   
   <meta name="generator" content="Hugo 0.40.1" />
   
@@ -65,6 +65,17 @@
   
   
   </main>
+  <script>
+  var today = new Date();
+  console.log(today);
+  for(day = 0; day < 25; day++){
+    if(day > today.getDate()){
+      
+      $('#article-' + day).hide();
+    }
+  }
+</script>
+
   <footer class="hg__footer footer">
   <span>&copy; 2018 Biotop Advent Calendar</span>
   <span>&middot;</span>

@@ -1,0 +1,10 @@
+<script>
+  var today = new Date();
+  console.log(today);
+  for(day = 0; day < 25; day++){
+    if(day > today.getDate()){
+      // $('#lnk' + day).attr("href", "javascript: void(0)");
+      $('#article-' + day).hide();
+    }
+  }
+</script>
