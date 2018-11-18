@@ -30,7 +30,7 @@ dl, dd, ol, ul, figure {
   }
 
 @media screen and (max-aspect-ratio: 6/5)  {
-  	.hg_landing {
+  	.hg_landing !important {
   		grid-template-areas: "header"
   		                     "navigation"
   		                     "main"
@@ -192,35 +192,31 @@ ul, ol, dl, figure,
 
 .mobile-background-image {
   display: inline;
-  width: 100vw;
+  width: 100vw !important;
   height: auto;
   z-index: -1;
   position: absolute;
   top: 0;
   left: 0;}
 
-.grid-parent{
+.grid-parent  {
   display: grid;
-  width: 88vw;
-  height: 146vw;
-  padding-left: 9vw;
-  padding-top: 6vw;
-  /* border-style: solid;
-  border-color: blue; */
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-auto-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 88vw !important;
+  height: 146vw !important;
+  padding-left: 9vw !important;
+  padding-top: 6vw !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr !important;
   grid-template-areas: "1 2 3 4"
                       "5 6 7 8"
                       "9 10 11 12"
                       "13 14 15 16"
                       "17 18 19 20"
-                      "21 22 23 24";
+                      "21 22 23 24" !important;
   }
 
 .grid-item{
-  display: block;
-  /* border-style:dashed;
-  border-color:green; */
+  display: block !important;
   }
 
 .hg_landing__left, .hg_landing__right {
