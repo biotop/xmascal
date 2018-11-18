@@ -2,11 +2,14 @@
 {{ partial "noheader.html" . }}
 <article class="post post-view">
   {{ range (where .Site.Pages ".Params.type" "=" "day") }}
-  <article id={{ .Params.number }} class="post first-entry">
+  <article id={{ .Params.number }} class="post first-entry" style="padding-top:138px">
       <header class="post-header">
         {{ partial "post-header.html" . }}
       </header>
-      <div class="post-content">{{ .Content }}</div>
+      <div class="post-content textonly">
+        {{ .Content }}
+        {{ partial "interact.html" .}}
+      </div>
   </article>
   {{ end }}
 </article>
