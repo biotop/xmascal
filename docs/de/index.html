@@ -180,17 +180,36 @@
 </script>
 <script>
   var today = new Date();
-  $(".background-image").attr("src","http:\/\/biotop.co\/xmascal\/img/background_desktop_processed/D" + today.getDate() + ".jpg");
-  $(".mobile-background-image").attr("src","http:\/\/biotop.co\/xmascal\/img/background_mobile_processed/D" + today.getDate() + ".jpg");
+  var start = new Date(2018, 12, 01)
+  var end = new Date (2018,12,24)
+
+  if(today > start && today < end){
+    $(".background-image").attr("src","http:\/\/biotop.co\/xmascal\/img/background_desktop_processed/D" + today.getDate() + ".jpg");
+    $(".mobile-background-image").attr("src","http:\/\/biotop.co\/xmascal\/img/background_mobile_processed/D" + today.getDate() + ".jpg");
+  }else if (today >= end) {
+    $(".background-image").attr("src","http:\/\/biotop.co\/xmascal\/img/background_desktop_processed/D24.jpg");
+    $(".mobile-background-image").attr("src","http:\/\/biotop.co\/xmascal\/img/background_mobile_processed/D24.jpg");
+  }else{
+    $(".background-image").attr("src","http:\/\/biotop.co\/xmascal\/img/background_desktop_processed/D0.jpg");
+    $(".mobile-background-image").attr("src","http:\/\/biotop.co\/xmascal\/img/background_mobile_processed/D0.jpg");
+  }
 </script>
 
 <script>
   var today = new Date();
-  console.log(today);
-  for(day = 0; day < 25; day++){
-    if(day > today.getDate()){
-      
-      $('#lnk' + day).hide();
+  var start = new Date(2018, 12, 01)
+  var end = new Date (2018,12,24)
+
+  if(today <= end && today.getMonth() < 11){
+    for(day = 0; day < 25; day++){ $('#lnk' + day).hide();}
+    console.log("It's not yet December 2018")
+  } else if (today <= end && today.getMonth() == 11){
+    for(day = 0; day < 25; day++){
+      if(day > today.getDate()){
+        
+        $('#lnk' + day).hide();
+      }
+      console.log("It's December 2018")
     }
   }
 </script>

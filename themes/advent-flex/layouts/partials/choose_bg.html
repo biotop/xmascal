@@ -1,5 +1,16 @@
 <script>
   var today = new Date();
-  $(".background-image").attr("src","{{.Site.BaseURL}}img/background_desktop_processed/D" + today.getDate() + ".jpg");
-  $(".mobile-background-image").attr("src","{{.Site.BaseURL}}img/background_mobile_processed/D" + today.getDate() + ".jpg");
+  var start = new Date(2018, 12, 01)
+  var end = new Date (2018,12,24)
+
+  if(today > start && today < end){
+    $(".background-image").attr("src","{{.Site.BaseURL}}img/background_desktop_processed/D" + today.getDate() + ".jpg");
+    $(".mobile-background-image").attr("src","{{.Site.BaseURL}}img/background_mobile_processed/D" + today.getDate() + ".jpg");
+  }else if (today >= end) {
+    $(".background-image").attr("src","{{.Site.BaseURL}}img/background_desktop_processed/D24.jpg");
+    $(".mobile-background-image").attr("src","{{.Site.BaseURL}}img/background_mobile_processed/D24.jpg");
+  }else{
+    $(".background-image").attr("src","{{.Site.BaseURL}}img/background_desktop_processed/D0.jpg");
+    $(".mobile-background-image").attr("src","{{.Site.BaseURL}}img/background_mobile_processed/D0.jpg");
+  }
 </script>
