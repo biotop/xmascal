@@ -73,6 +73,16 @@ ul, ol, dl, figure,
   color: #fff;
 }
 
+.menu > ul{
+  margin-bottom: 0px;
+  color: #000;
+}
+
+.menu-toggle::before, .menu-toggle::after{
+  top: 18px;
+  background: #fff;
+}
+
 /**
  * Landing_page
  */
@@ -227,18 +237,4 @@ ul, ol, dl, figure,
   margin-top: 4vh;
   font-variant: small-caps;
   font-size: 5vw !important;
-}
-
-/* img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-} */
-
-.menu ul {
-  margin-bottom: 0px !important;
-  color: #000 !important;
-}
-
-.menu-toggle button {
-  color: #fff;
 }

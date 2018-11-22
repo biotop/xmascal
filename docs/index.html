@@ -162,6 +162,22 @@
     </div>
   </div>
 </body>
+<script src="http://biotop.co/xmascal/js/instantclick.min.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
+<script src="http://biotop.co/xmascal/js/highlight.min.js" data-no-instant></script>
+<script data-no-instant>
+  addMenuListener();
+  InstantClick.on('change', function() {
+    addMenuListener();
+  });
+  function addMenuListener() {
+    var $toggle = document.querySelector('.menu-toggle');
+    var $body = document.querySelector('body');
+    $toggle.addEventListener('click', function() {
+      $body.classList.toggle('noscroll');
+    }, false);
+  }
+</script>
 <script>
   var today = new Date();
   $(".background-image").attr("src","http:\/\/biotop.co\/xmascal\/img/background_desktop_processed/D" + today.getDate() + ".jpg");

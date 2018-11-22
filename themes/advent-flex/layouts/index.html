@@ -142,6 +142,22 @@
     </div>
   </div>
 </body>
+<script src="{{.Site.BaseURL}}js/instantclick.min.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
+<script src="{{.Site.BaseURL}}js/highlight.min.js" data-no-instant></script>
+<script data-no-instant>
+  addMenuListener();
+  InstantClick.on('change', function() {
+    addMenuListener();
+  });
+  function addMenuListener() {
+    var $toggle = document.querySelector('.menu-toggle');
+    var $body = document.querySelector('body');
+    $toggle.addEventListener('click', function() {
+      $body.classList.toggle('noscroll');
+    }, false);
+  }
+</script>
 {{ partial "choose_bg.html" . }}
 {{ partial "linkactivator.html" . }}
 </html>
