@@ -58,7 +58,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   min-width: 100%;
-  color: #111;
+  color: #fff;
   /* background-color: #009930; */
   -webkit-text-size-adjust: 100%; }
 
@@ -233,3 +233,12 @@ ul, ol, dl, figure,
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 } */
+
+.menu ul {
+  margin-bottom: 0px !important;
+  color: #000 !important;
+}
+
+.menu-toggle button {
+  color: #fff;
+}
