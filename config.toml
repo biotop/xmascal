@@ -10,30 +10,57 @@ publishdir = "docs"
     contentDir = "content/english"
     languageName = "English"
     weight = 10
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about this project"
+        name = "about this project"
+        pre = "<i class='fa fa-heart'></i>"
+        url = "/about/"
+        weight = -110
+
+      [[languages.en.menu.main]]
+        name = "biotop website"
+        post = "<span class='alert'>New!</span>"
+        pre = "<i class='fa fa-road'></i>"
+        url = "http://biotop.co"
+        weight = -100
+
+      [[languages.en.menu.main]]
+        name = "DE"
+        post = "<span class='alert'>New!</span>"
+        pre = "<i class='fa fa-road'></i>"
+        url = "/de"
+        weight = -90
+
   [languages.de]
     title = "Biotop Adventkalender"
     contentDir = "content/german"
     languageName = "Deutsch"
     weight = 20
 
-[menu]
-  [[menu.main]]
-    identifier = "about this project"
-    name = "about this project"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
-    weight = -110
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        identifier = "about"
+        name = "Über dieses Projekt"
+        pre = "<i class='fa fa-heart'></i>"
+        url = "about/"
+        weight = -110
 
-  [[menu.main]]
-    identifier = "home"
-    name = "home"
-    pre = "<i class='fa fa-heart'></i>"
-    url = ""
-    weight = -110
+      [[languages.de.menu.main]]
+        name = "biotop website"
+        post = "<span class='alert'>New!</span>"
+        pre = "<i class='fa fa-road'></i>"
+        url = "http://biotop.co"
+        weight = -100
 
-  [[menu.main]]
-    name = "biotop website"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "http://biotop.co"
-    weight = -100
+      [[languages.de.menu.main]]
+        name = "biotop website"
+        weight = -80
+
+      [[languages.de.menu.main]]
+        name = "EN"
+        post = "<span class='alert'>New!</span>"
+        pre = "<i class='fa fa-road'></i>"
+        url = "/en"
+        weight = -70

@@ -108,21 +108,6 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/xmascal/de/about/</loc>
-    <lastmod>2018-11-10T11:15:50+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/xmascal/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/xmascal/de/about/"
-                />
-  </url>
-  
-  <url>
     <loc>http://biotop.co/xmascal/de/interactions/</loc>
     <lastmod>2018-11-10T11:15:50+01:00</lastmod>
     <xhtml:link
@@ -164,6 +149,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://biotop.co/xmascal/de/visonly/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/xmascal/de/about/</loc>
+    <lastmod>2018-11-10T11:15:50+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/xmascal/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/xmascal/de/about/"
                 />
   </url>
   

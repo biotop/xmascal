@@ -7,7 +7,13 @@
         {{ partial "post-header.html" . }}
       </header>
       <div class="post-content textonly">
-        {{ .Content }}
+        {{ if .Params.shortened }}
+          {{ with .Params.shortened }}
+            <p>{{ . | markdownify }}</p>
+          {{ end }}
+        {{ else }}
+          {{ .Content }}
+        {{ end }}
         {{ partial "interact.html" .}}
       </div>
   </article>

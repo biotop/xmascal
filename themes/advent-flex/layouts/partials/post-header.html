@@ -1,8 +1,10 @@
 <div id="wrapper">
   <div id="leftcolumn">
+    {{ if .Params.number }}
     <div class="numberCircle">
       <p>{{ .Params.number }}</p>
     </div>
+    {{ end }}
   </div>
   <div id="rightcolumn">
       <h1 class="post-title">{{ .Title }}</h1>

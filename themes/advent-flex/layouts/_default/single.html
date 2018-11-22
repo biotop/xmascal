@@ -3,9 +3,11 @@
 <article class="post post-view">
   <header class="post-header">
     {{ partial "post-header.html" . }}
+    {{ if .Params.headerimage }}
     <div class="single-header-image">
       <img class="header-image" src="{{.Site.BaseURL}}img/{{ .Params.headerimage }}"/>
     </div>
+    {{ end }}
   </header>
   <div class="post-content">{{ .Content }}</div>
   <footer class="post-footer">

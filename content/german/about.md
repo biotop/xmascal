@@ -1,7 +1,8 @@
 ---
-title: "About this project"
+title: "Über dieses Projekt"
 date: 2018-11-10T11:15:50+01:00
 draft: false
+headerimage: "004_Xmas Schneekugel.png"
 ---
 Das Villacher Wissenschaftskollektiv Biotop installiert im kommenden Monat einen Adventkalender der etwas anderen Art mitten in der Villacher Innenstadt.
 
