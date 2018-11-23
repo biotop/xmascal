@@ -21,9 +21,6 @@
       {{ partial "post-header.html" . }}
     </header>
     <p class="post-summary">{{ .Summary | plainify | htmlUnescape }}...</p>
-    <footer class="post-footer">
-      <p class="post-meta">{{ .Date.Format "2.1.2006" }}</p>
-    </footer>
     <a class="post-link" href="{{ .Permalink }}"></a>
   </article>
   {{ end }}
