@@ -27,7 +27,7 @@ publishdir = "docs"
         weight = -100
 
       [[languages.en.menu.main]]
-        name = "DE"
+        name = "de"
         post = "<span class='alert'>New!</span>"
         pre = "<i class='fa fa-road'></i>"
         url = "/de"
@@ -59,8 +59,8 @@ publishdir = "docs"
         weight = -80
 
       [[languages.de.menu.main]]
-        name = "EN"
+        name = "en"
         post = "<span class='alert'>New!</span>"
         pre = "<i class='fa fa-road'></i>"
-        url = "/en"
+        url = "http://biotop.co/xmascal/"
         weight = -70
