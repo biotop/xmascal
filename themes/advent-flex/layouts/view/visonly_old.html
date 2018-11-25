@@ -1,0 +1,7 @@
+{{ partial "head.html" . }}
+{{ partial "noheader.html" . }}
+  {{ range (where .Site.Pages ".Params.type" "=" "day") }}
+      <img id={{ .Params.number }} src="{{.Site.BaseURL}}img/{{ .Params.headerimage }}" alt="">
+  {{ end }}
+<!-- {{ partial "showhide.html" }} -->
+{{ partial "nofooter.html" . }}

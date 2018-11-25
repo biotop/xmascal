@@ -1,7 +1,16 @@
 {{ partial "head.html" . }}
 {{ partial "noheader.html" . }}
   {{ range (where .Site.Pages ".Params.type" "=" "day") }}
-  <img id={{ .Params.number }} src="{{.Site.BaseURL}}img/{{ .Params.headerimage }}" alt="">
+  {{ if .Params.headervideo }}
+  <div style="width:100vw;height:100vh">
+    <video controls autoplay loop width="100%">
+      <source src=" {{.Site.BaseURL}}img/{{ .Params.headervideo }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+  </div>
+  {{ else if .Params.headerimage }}
+    <img id={{ .Params.number }} src="{{.Site.BaseURL}}img/{{ .Params.headerimage }}" alt="">
   {{ end }}
-{{ partial "showhide.html" }}
+  {{ end }}
+<!-- {{ partial "showhide.html" }} -->
 {{ partial "nofooter.html" . }}

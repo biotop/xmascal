@@ -3,7 +3,14 @@
 <article class="post post-view">
   <header class="post-header">
     {{ partial "post-header.html" . }}
-    {{ if .Params.headerimage }}
+    {{ if .Params.headervideo }}
+      <div class="single-header-image">
+        <video controls autoplay loop width="100%">
+          <source src=" {{.Site.BaseURL}}img/{{ .Params.headervideo }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+    {{ else if .Params.headerimage }}
     <div class="single-header-image">
       <img class="header-image" src="{{.Site.BaseURL}}img/{{ .Params.headerimage }}"/>
     </div>
