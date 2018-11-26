@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
 {{ partial "noheader.html" . }}
-  {{ range (where .Site.Pages ".Params.type" "=" "day") }}
+  {{ range (where .Site.Pages ".Params.number" "=" "13") }}
   {{ if .Params.headervideo }}
   <div style="width:100vw;height:100vh">
     <video controls autoplay loop width="100%">
