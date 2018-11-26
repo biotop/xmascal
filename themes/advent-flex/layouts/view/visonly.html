@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
 {{ partial "noheader.html" . }}
-  {{ range (where .Site.Pages ".Params.number" "=" "13") }}
+  {{ range (where .Site.Pages ".Params.type" "=" "day") }}
   {{ if .Params.headervideo }}
   <div style="width:100vw;height:100vh">
     <video controls autoplay loop width="100%">
@@ -12,5 +12,5 @@
     <img id={{ .Params.number }} src="{{.Site.BaseURL}}img/{{ .Params.headerimage }}" alt="">
   {{ end }}
   {{ end }}
-<!-- {{ partial "showhide.html" }} -->
+{{ partial "showhide.html" }}
 {{ partial "nofooter.html" . }}
