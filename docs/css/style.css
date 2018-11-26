@@ -432,7 +432,6 @@ pre, code {
   padding: 0 0 0 20px;
   color: rgba(0, 0, 0, .6);
   font-style: italic;
-  border-left: 3px solid rgba(0, 0, 0, .8);
 }
 .post-content hr {
   margin-top: 70px;
