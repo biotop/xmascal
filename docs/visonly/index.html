@@ -110,7 +110,7 @@
   
   
   
-    <img id=6 src="http://biotop.co/xmascal/img//02/wham.jpg" alt="">
+    <img id=6 src="http://biotop.co/xmascal/img//06/snowflake.jpg" alt="">
   
   
   
@@ -140,6 +140,7 @@
   
 <script>
   var today = new Date();
+  
   console.log(today);
   for(day = 0; day < 25; day++){
     if(day !== today.getDate()){
@@ -148,9 +149,7 @@
       $('#' + day).show();
     }
   }
-  window.setInterval(function(){
-
-    var today = new Date();
+  window.setInterval(function(today){
     console.log(today);
     for(day = 0; day < 25; day++){
       if(day !== today.getDate()){

@@ -44,14 +44,14 @@ publishdir = "docs"
         identifier = "about"
         name = "Über dieses Projekt"
         pre = "<i class='fa fa-heart'></i>"
-        url = "about/"
+        url = "/de/about/"
         weight = -110
 
       [[languages.de.menu.main]]
         name = "biotop website"
         post = "<span class='alert'>New!</span>"
         pre = "<i class='fa fa-road'></i>"
-        url = "http://biotop.co"
+        url = "http://biotop.co/de"
         weight = -100
 
       [[languages.de.menu.main]]

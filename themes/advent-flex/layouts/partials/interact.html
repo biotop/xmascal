@@ -1,5 +1,5 @@
 {{ $qrapi := delimit (slice "https://qrcode.tec-it.com/API/QRCode?data=" .Params.postUrl "&color=%23ffffff&backcolor=%23ffffff&istransparent=True") "" }}
-<div id="wrapper">
+<div id="wrapper" style="margin-top:20px">
   <div id="leftcolumn">
     <div class="numberCircle">
       <img src="{{ $qrapi }}" width="60%"/>
