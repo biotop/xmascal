@@ -1,16 +1,25 @@
 {{ partial "head.html" . }}
 {{ partial "noheader.html" . }}
   {{ range (where .Site.Pages ".Params.type" "=" "day") }}
-  {{ if .Params.headervideo }}
+  {{ $qrapi := delimit (slice "https://qrcode.tec-it.com/API/QRCode?data=" .Params.postUrl "&color=%23ffffff&backcolor=%23ffffff&istransparent=True") "" }}
   <div id={{.Params.number}} style="width:100vw;height:100vh">
+    <div id="wrapper" style="margin-top:20px; margin-left:20px; z-index;1000; position:absolute;">
+      <div id="leftcolumn" style="width:10%;">
+        <div class="numberCircle">
+          <img src="{{ $qrapi }}" width="50%"/>
+          <p style="font-size:10px; padding-top:25%;">Read this story online!</p>
+        </div>
+      </div>
+    </div>
+    {{ if .Params.headervideo }}
     <video controls autoplay loop width="100%">
       <source src=" {{.Site.BaseURL}}img/{{ .Params.headervideo }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
+    {{ else if .Params.headerimage }}
+      <img src="{{.Site.BaseURL}}img/{{ .Params.headerimage }}" alt="" style="width:100%;">
+    {{ end }}
   </div>
-  {{ else if .Params.headerimage }}
-    <img id={{ .Params.number }} src="{{.Site.BaseURL}}img/{{ .Params.headerimage }}" alt="" style="width:100%;">
-  {{ end }}
   {{ end }}
 {{ partial "showhide.html" }}
 {{ partial "nofooter.html" . }}
