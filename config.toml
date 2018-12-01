@@ -23,7 +23,7 @@ publishdir = "docs"
         name = "biotop website"
         post = "<span class='alert'>New!</span>"
         pre = "<i class='fa fa-road'></i>"
-        url = "http://biotop.co"
+        url = "http://biotop.co/blog/"
         weight = -100
 
       [[languages.en.menu.main]]
@@ -51,7 +51,7 @@ publishdir = "docs"
           name = "biotop website"
           post = "<span class='alert'>New!</span>"
           pre = "<i class='fa fa-road'></i>"
-          url = "http://biotop.co/de/"
+          url = "http://biotop.co/de/blog/"
           weight = -100
 
       [[languages.de.menu.main]]
