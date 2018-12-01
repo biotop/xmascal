@@ -12,7 +12,7 @@
             <p>{{ . | markdownify }}</p>
           {{ end }}
         {{ else }}
-          {{ .Summary }}
+          <p>{{ .Summary }}</p>
         {{ end }}
         {{ partial "interact.html" .}}
       </div>
