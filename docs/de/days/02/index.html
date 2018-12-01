@@ -47,11 +47,11 @@ Bis jetzt ist immer noch sehr wenig zur neuronalen Grundlage von Ohrwürmern bek
         
         
         <li class="">
-          <a href="/xmascal/de/about/">Über dieses Projekt</a>
+          <a href="about/">Über dieses Projekt</a>
         </li>
         
         <li class="">
-          <a href="">biotop website</a>
+          <a href="http://biotop.co/de">biotop website</a>
         </li>
         
         <li class="">
@@ -117,6 +117,11 @@ Bis jetzt ist immer noch sehr wenig zur neuronalen Grundlage von Ohrwürmern bek
     
   </footer>
 </article>
+<article id="not-published-yet-2">
+  <header>
+    <h1> This article hasn't been published yet!</h1>
+  </header>
+</article>
 </main>
 <script>
   var today = new Date();
@@ -131,6 +136,8 @@ Bis jetzt ist immer noch sehr wenig zur neuronalen Grundlage von Ohrwürmern bek
       if(day > today.getDate()){
         
         $('#article-' + day).hide();
+      } else {
+        $('#not-published-yet-' + day).hide();
       }
       console.log("It's December 2018")
     }

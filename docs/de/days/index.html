@@ -39,11 +39,11 @@
         
         
         <li class="">
-          <a href="/xmascal/de/about/">Über dieses Projekt</a>
+          <a href="about/">Über dieses Projekt</a>
         </li>
         
         <li class="">
-          <a href="">biotop website</a>
+          <a href="http://biotop.co/de">biotop website</a>
         </li>
         
         <li class="">
@@ -745,6 +745,8 @@ Dieser Adventkalender steht in dieser Tradition. Er stellt unseren Versuch dar, 
       if(day > today.getDate()){
         
         $('#article-' + day).hide();
+      } else {
+        $('#not-published-yet-' + day).hide();
       }
       console.log("It's December 2018")
     }

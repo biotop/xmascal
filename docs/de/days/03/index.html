@@ -45,11 +45,11 @@ Seit im 19. Jahrhundert süßes Kleingebäck in immer mehr Haushalten Einzug hie
         
         
         <li class="">
-          <a href="/xmascal/de/about/">Über dieses Projekt</a>
+          <a href="about/">Über dieses Projekt</a>
         </li>
         
         <li class="">
-          <a href="">biotop website</a>
+          <a href="http://biotop.co/de">biotop website</a>
         </li>
         
         <li class="">
@@ -100,6 +100,11 @@ Seit im 19. Jahrhundert süßes Kleingebäck in immer mehr Haushalten Einzug hie
     
   </footer>
 </article>
+<article id="not-published-yet-3">
+  <header>
+    <h1> This article hasn't been published yet!</h1>
+  </header>
+</article>
 </main>
 <script>
   var today = new Date();
@@ -114,6 +119,8 @@ Seit im 19. Jahrhundert süßes Kleingebäck in immer mehr Haushalten Einzug hie
       if(day > today.getDate()){
         
         $('#article-' + day).hide();
+      } else {
+        $('#not-published-yet-' + day).hide();
       }
       console.log("It's December 2018")
     }

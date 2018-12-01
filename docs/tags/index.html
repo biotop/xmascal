@@ -39,7 +39,7 @@
         
         
         <li class="">
-          <a href="/xmascal/about/">about this project</a>
+          <a href="about/">about this project</a>
         </li>
         
         <li class="">
@@ -81,6 +81,8 @@
       if(day > today.getDate()){
         
         $('#article-' + day).hide();
+      } else {
+        $('#not-published-yet-' + day).hide();
       }
       console.log("It's December 2018")
     }

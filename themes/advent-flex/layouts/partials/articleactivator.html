@@ -11,6 +11,8 @@
       if(day > today.getDate()){
         // $('#lnk' + day).attr("href", "javascript: void(0)");
         $('#article-' + day).hide();
+      } else {
+        $('#not-published-yet-' + day).hide();
       }
       console.log("It's December 2018")
     }

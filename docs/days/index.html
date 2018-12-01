@@ -39,7 +39,7 @@
         
         
         <li class="">
-          <a href="/xmascal/about/">about this project</a>
+          <a href="about/">about this project</a>
         </li>
         
         <li class="">
@@ -745,6 +745,8 @@ This Christmas calendar was conceived with this tradition in mind. It represents
       if(day > today.getDate()){
         
         $('#article-' + day).hide();
+      } else {
+        $('#not-published-yet-' + day).hide();
       }
       console.log("It's December 2018")
     }
