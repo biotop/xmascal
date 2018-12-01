@@ -57,7 +57,7 @@ Die Gruppe aus 30 jungen WissenschaftlerInnen und DesignerInnen ist seit nunmehr
 
     
 <main class="hg__main">
-<article class="post post-view">
+<article class="post post-view" id="article-">
   <header class="post-header">
     <div id="wrapper">
   <div id="leftcolumn">
@@ -89,15 +89,32 @@ Die Gruppe aus 30 jungen WissenschaftlerInnen und DesignerInnen ist seit nunmehr
   </footer>
 </article>
 </main>
+<script>
+  var today = new Date();
+  var start = new Date(2018, 11, 01)
+  var end = new Date (2018,11, 24)
+
+  if(today <= end && today.getMonth() < 11){
+    for(day = 0; day < 25; day++){ $('#article-' + day).hide();}
+    console.log("It's not yet December 2018")
+  } else if (today <= end && today.getMonth() == 11){
+    for(day = 0; day < 25; day++){
+      if(day > today.getDate()){
+        
+        $('#article-' + day).hide();
+      }
+      console.log("It's December 2018")
+    }
+  } else {
+    console.log("It's not yet December 2018")
+  }
+</script>
+
 
     <aside class="hg__left"></aside>
     <aside class="hg__right"></aside>
     <footer class="hg__footer footer">
   <span>&copy; 2018 Biotop Adventkalender</span>
-  <span>&middot;</span>
-  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
-  <span>&middot;</span>
-  <span>Designed by <a href="http://biotop.co/" rel="noopener" target="_blank">️Biotop</a>️</span>
 </footer>
 <script src="http://biotop.co/xmascal/js/instantclick.min.js" data-no-instant></script>
 <script data-no-instant>InstantClick.init();</script>

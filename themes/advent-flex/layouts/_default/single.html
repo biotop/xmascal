@@ -1,6 +1,6 @@
 {{ define "main" }}
 <main class="hg__main">
-<article class="post post-view">
+<article class="post post-view" id="article-{{ .Params.number }}">
   <header class="post-header">
     {{ partial "post-header.html" . }}
     {{ if .Params.headervideo }}
@@ -28,4 +28,5 @@
   </footer>
 </article>
 </main>
+{{ partial "articleactivator.html"}}
 {{ end }}
