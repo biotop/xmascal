@@ -16,7 +16,7 @@ publishdir = "docs"
         identifier = "about this project"
         name = "about this project"
         pre = "<i class='fa fa-heart'></i>"
-        url = "about/"
+        url = "/about/"
         weight = -110
 
       [[languages.en.menu.main]]
@@ -44,7 +44,7 @@ publishdir = "docs"
         identifier = "about"
         name = "Über dieses Projekt"
         pre = "<i class='fa fa-heart'></i>"
-        url = "about/"
+        url = "/about/"
         weight = -110
 
         [[languages.de.menu.main]]
