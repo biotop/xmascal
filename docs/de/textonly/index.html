@@ -1014,6 +1014,27 @@ Gerüche und Geschmäcker sind mächtige Zeitmaschinen und können uns, viel bes
   
 </article>
 <script>
+  function refreshAt(hours, minutes, seconds) {
+    var now = new Date();
+    var then = new Date();
+
+    if(now.getHours() > hours ||
+    (now.getHours() == hours && now.getMinutes() > minutes) ||
+    now.getHours() == hours && now.getMinutes() == minutes && now.getSeconds() >= seconds) {
+      then.setDate(now.getDate() + 1);
+      console.log("Refreshed at", now)
+    }
+    then.setHours(hours);
+    then.setMinutes(minutes);
+    then.setSeconds(seconds);
+
+    var timeout = (then.getTime() - now.getTime());
+    setTimeout(function() { window.location.reload(true); }, timeout);
+  }
+  refreshAt(6,0,0); 
+</script>
+
+<script>
   var today = new Date();
   
   console.log(today);
@@ -1025,14 +1046,15 @@ Gerüche und Geschmäcker sind mächtige Zeitmaschinen und können uns, viel bes
     }
   }
   window.setInterval(function(){
-    console.log(today);
+    now = new Date()
+    console.log(now)
     for(day = 0; day < 25; day++){
-      if(day !== today.getDate()){
+      if(day !== now.getDate()){
         $('#' + day).hide();
       } else {
         $('#' + day).show();
       }
     }
-  }, 10000);
+  }, 60000);
 </script>
 
