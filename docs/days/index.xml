@@ -93,16 +93,6 @@ All species of deer belong the &lt;em&gt;Artiodactyla&lt;/em&gt; order of mammal
     </item>
     
     <item>
-      <title>Ask A Scientist</title>
-      <link>http://biotop.co/xmascal/days/08/</link>
-      <pubDate>Thu, 08 Nov 2018 17:02:52 +0100</pubDate>
-      
-      <guid>http://biotop.co/xmascal/days/08/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu p
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Holiday Stress</title>
       <link>http://biotop.co/xmascal/days/19/</link>
       <pubDate>Thu, 08 Nov 2018 17:02:52 +0100</pubDate>
@@ -118,6 +108,26 @@ All species of deer belong the &lt;em&gt;Artiodactyla&lt;/em&gt; order of mammal
       
       <guid>http://biotop.co/xmascal/days/18/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula felis ut ultricies lobortis. Mauris et varius erat. In ac mi at sapien finibus placerat vel id magna. Proin ut erat tempor, hendrerit mi et, porttitor massa. Etiam interdum mauris odio, eget facilisis arcu sollicitudin id. Morbi ultricies ipsum neque, in blandit augue placerat vel. Quisque a sem placerat, sagittis diam in, posuere turpis. Maecenas at sapien posuere, aliquet nisi in, tincidunt libero.</description>
+    </item>
+    
+    <item>
+      <title>Last Christmas I gave you my heart, but the very next day you gave it away...</title>
+      <link>http://biotop.co/xmascal/days/08/</link>
+      <pubDate>Thu, 08 Nov 2018 17:02:52 +0100</pubDate>
+      
+      <guid>http://biotop.co/xmascal/days/08/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Fig. 1: Google Books &lt;a href=&#34;https://books.google.com/ngrams/graph?content=christmas%2Cdivorce&amp;amp;case_insensitive=on&amp;amp;year_start=1800&amp;amp;year_end=1950&amp;amp;corpus=15&amp;amp;smoothing=3&amp;amp;share=&amp;amp;direct_url=t4%3B%2Cchristmas%3B%2Cc0%3B%2Cs0%3B%3BChristmas%3B%2Cc0%3B%3BCHRISTMAS%3B%2Cc0%3B.t4%3B%2Cdivorce%3B%2Cc0%3B%2Cs0%3B%3Bdivorce%3B%2Cc0%3B%3BDivorce%3B%2Cc0%3B%3BDIVORCE%3B%2Cc0&#34;&gt;Ngram data&lt;/a&gt; for the queries &amp;ldquo;Christmas&amp;rdquo; and &amp;ldquo;divorce&amp;rdquo; in the English corpus between 1850 and 1950. The two data series show a high &lt;a href=&#34;https://en.wikipedia.org/wiki/Pearson_correlation_coefficient&#34;&gt;Pearson correlation coefficient&lt;/a&gt; of R=0.93.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The plot above shows that “Christmas” and “divorce” are mentioned in books with frequencies that show very similar trends over a period of 100 years. So does this mean that people planned to divorce a lot around Christmas? Or did the relaxed atmosphere around Christmas with the whole family coming together in a crowded house full of alcoholic beverages somehow lead to a lot of divorces? Or is Christmas actually a holiday of divorce?&lt;/p&gt;
+
+&lt;p&gt;Looking only at these data might lead you to wrong conclusions about causal relationships between highly correlated data series such as the ones above. Correlation (e.g., two events occurring together), however, &lt;a href=&#34;https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation&#34;&gt;does not imply causation&lt;/a&gt;. (i.e., one is the cause of the other).&lt;/p&gt;
+
+&lt;p&gt;Some such cum hoc ergo propter hoc (Latin for “with this, therefore because of this”) fallacies can quite easily be excluded using common sense (Christmas was clearly not established to celebrate divorces) but others are a lot trickier (&lt;a href=&#34;https://www.wilson-nesbitt.com/news-updates/Divorce/7282/Why-do-divorce-rates-double-over-Christmas, for example, indeed argues that the atmosphere at Christmas leads to unusually high numbers of divorces&#34;&gt;this article&lt;/a&gt;). Additional experimentation and data can help to exclude some possible causal relationships or add additional evidence supporting others.&lt;/p&gt;
+
+&lt;p&gt;Other examples of so-called “spurious correlations” (i.e., correlated events without a direct causal relationship) are presented on &lt;a href=&#34;http://www.tylervigen.com/spurious-correlations&#34;&gt;this recommended website&lt;/a&gt;
+There, it is for example uncovered that the consumption of margarine is correlated with the divorce rate in the US federal state of Maine. But it might be rather easy to see that there is no real causal relationship between these two events ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
