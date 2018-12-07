@@ -43,7 +43,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="1314.3344"
+     inkscape:cx="1098.3344"
      inkscape:cy="504.66669"
      inkscape:document-units="mm"
      inkscape:current-layer="g1031-8-0"
@@ -62,7 +62,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -877,7 +877,7 @@
         </text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:20.57315636px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f8766d;fill-opacity:1;stroke:none;stroke-width:0.5143289;"
+           style="font-style:normal;font-weight:normal;font-size:20.57315636px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f8766d;fill-opacity:1;stroke:none;stroke-width:0.5143289"
            x="395.57443"
            y="-43.149563"
            id="text1332-6-7"
@@ -886,31 +886,31 @@
              id="tspan1330-65-62"
              x="395.57443"
              y="-43.149563"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289;">Last Christmas</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289">Last Christmas</tspan><tspan
              sodipodi:role="line"
              x="395.57443"
              y="18.569908"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289;"
-             id="tspan2015">I gave You </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289"
+             id="tspan2015">I Gave You </tspan><tspan
              sodipodi:role="line"
              x="395.57443"
              y="80.289375"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289;"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289"
              id="tspan2023">My Heart</tspan><tspan
              sodipodi:role="line"
              x="395.57443"
              y="142.00885"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289;"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289"
              id="tspan2017">But The Very </tspan><tspan
              sodipodi:role="line"
              x="395.57443"
              y="203.72832"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289;"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289"
              id="tspan2021">Next Day</tspan><tspan
              sodipodi:role="line"
              x="395.57443"
              y="238.85663"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289;"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289"
              id="tspan2025" /></text>
         <text
            xml:space="preserve"
@@ -940,7 +940,7 @@
              height="951"
              x="676"
              y="-57.999996" /></flowRegion><flowPara
-           id="flowPara2033"></flowPara></flowRoot>      <flowRoot
+           id="flowPara2033" /></flowRoot>      <flowRoot
          xml:space="preserve"
          id="flowRoot2035"
          style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
@@ -950,6 +950,6 @@
              height="613"
              x="1193"
              y="577" /></flowRegion><flowPara
-           id="flowPara2041"></flowPara></flowRoot>    </g>
+           id="flowPara2041" /></flowRoot>    </g>
   </g>
 </svg>

@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="christmasdivorce_insta.svg">
+   sodipodi:docname="christmasdivorce_insta.svg"
+   inkscape:export-filename="C:\Code\Websites\xmascal\static\img\08\christmasdivorce_insta.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs2">
     <clipPath
@@ -43,10 +46,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35355339"
-     inkscape:cx="2083.2046"
+     inkscape:cx="1472.2643"
      inkscape:cy="307.66806"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1465"
+     inkscape:current-layer="g1031-8-0"
      showgrid="false"
      units="px"
      inkscape:window-width="3200"
@@ -62,7 +65,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -488,7 +491,9 @@
            x="395.57443"
            y="-43.149563"
            id="text1332-6-7"
-           transform="matrix(0,1,1,0,0,0)"><tspan
+           transform="matrix(0,1,1,0,0,0)"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
              sodipodi:role="line"
              id="tspan1330-65-62"
              x="395.57443"
@@ -498,7 +503,7 @@
              x="395.57443"
              y="18.569908"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.37557602px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#f8766d;fill-opacity:1;stroke-width:0.5143289"
-             id="tspan2015">I gave You </tspan><tspan
+             id="tspan2015">I Gave You </tspan><tspan
              sodipodi:role="line"
              x="395.57443"
              y="80.289375"
