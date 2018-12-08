@@ -164,6 +164,34 @@ The group, consisting of 30 young scientists and designers, has been active for 
 &lt;p&gt;Other examples of so-called “spurious correlations” (i.e., correlated events without a direct causal relationship) are presented on &lt;a href=&#34;http://www.tylervigen.com/spurious-correlations&#34;&gt;this recommended website&lt;/a&gt;
 There, it is for example uncovered that the consumption of margarine is correlated with the divorce rate in the US federal state of Maine. But it might be rather easy to see that there is no real causal relationship between these two events ;)&lt;/p&gt;
 
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;http://biotop.co/xmascal/img/08/DivorcerateMaineMargarine.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;A more serious discussion of the often-made mistake to conclude a causative relationship from highly correlated data can be found in this recommended video from Khan academy. &lt;a href=&#34;https://www.khanacademy.org/math/probability/scatterplots-a1/creating-interpreting-scatterplots/v/correlation-and-causality&#34;&gt;Here, it is discussed whether eating breakfast could be a possible solution to teen obesity?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So you might want to be extra careful to not mix up correlation and causation, which are indeed two very different things. Confusing them leads to a lot of false claims that are seemingly supported by real data.&lt;/p&gt;
+
+&lt;p&gt;One thing, however, is for sure: Christmas is also (highly correlates with) Egg Nog season. You might want to do some experimentation yourselves to work out whether there is a causal relationship between the two ;)&lt;/p&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;http://biotop.co/xmascal/img/08/eggnogg.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+
+&lt;p&gt;Ps: The R scripts that were used to query Google ngrams/ trends and plot the respective correlations can be found in our Github repository.  Feel free to use them to search for other (spurious) correlations or have a look at the &lt;a href=&#34;https://www.google.com/trends/correlate&#34;&gt;Google correlate project&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
