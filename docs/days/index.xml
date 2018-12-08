@@ -130,7 +130,7 @@ There, it is for example uncovered that the consumption of margarine is correlat
 
 &lt;figure&gt;
     
-        &lt;img src=&#34;http://biotop.co/xmascal/img/08/DivorcerateMaineMargarine.png&#34; /&gt;
+        &lt;img src=&#34;http://biotop.co/xmascal/img/08/DivorceRateMaineMargarine.png&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -153,7 +153,7 @@ There, it is for example uncovered that the consumption of margarine is correlat
 
 &lt;p&gt;Cheers!&lt;/p&gt;
 
-&lt;p&gt;Ps: The R scripts that were used to query Google ngrams/ trends and plot the respective correlations can be found in our Github repository.  Feel free to use them to search for other (spurious) correlations or have a look at the &lt;a href=&#34;https://www.google.com/trends/correlate&#34;&gt;Google correlate project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ps: The R scripts that were used to query Google ngrams/ trends and plot the respective correlations can be found in &lt;a href=&#34;https://github.com/biotop/spurious-correlations-christmas.git&#34;&gt;our Github repository&lt;/a&gt;.  Feel free to use them to search for other (spurious) correlations or have a look at the &lt;a href=&#34;https://www.google.com/trends/correlate&#34;&gt;Google correlate project&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
