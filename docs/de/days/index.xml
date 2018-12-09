@@ -57,12 +57,19 @@
     </item>
     
     <item>
-      <title>Das Handlungsreisenden Problem</title>
+      <title>Das Problem des Handlungsreisenden oder wie man den Weihnachtsshoppingtrip optimiert</title>
       <link>http://biotop.co/xmascal/de/days/11/</link>
       <pubDate>Sun, 11 Nov 2018 17:02:52 +0100</pubDate>
       
       <guid>http://biotop.co/xmascal/de/days/11/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu p</description>
+      <description>&lt;p&gt;Das Problem des Handelsreisenden beschäftigt sich damit, die kürzeste Rundtour zwischen einer Anzahl an Orten zu finden, dabei jeden Ort nur einmal zu besuchen und schließlich wieder zum Ausgangsort zurückzukehren. Im beigefügten Video zeigen wir einen einfachen Algorithmus, der einen der gängigen Optimierungsansätze verwendet um diese kürzeste Route zwischen den Mittelpunkten aller Länder zu finden. Die kürzeste Route kann die geographisch kürzeste sein, oder die schnellste oder die kosteneffizienteste. Man kann auch andere Parameter (oder Kombinationen von Parametern) optimieren - das Problem findet nicht nur dann Anwendung, wenn es um die Planung von Rundreisen geht.&lt;/p&gt;
+
+&lt;p&gt;Logistik - also der effiziente Transport und die zeitgerechte Zustellung von Gütern - ist natürlich ein Hauptanwendungsgebiet. Aber auch bei der Herstellung von Halbleiterplatten, die das Bohren von tausenden kleinen Löchern erfordert, spart eine optimierte Route des Bohrkopfs über die Platte nicht nur Zeit, sondern auch Geld. Natürlich könnte man die Lösungsansätze für dieses mathematische Problem genauso auf die Optimierung der eigenen Weihnachstshoppingroute anwenden. Für eine kleine Anzahl an Orten ist es noch machbar, alle möglichen Routen zu berechnen, zu vergleichen, und dann die beste zu finden. Allerdings gibt es schon bei 10 Orten 10! (also 3,628,800) mögliche Rundtouren. Für eine große Anzahl an zu besuchenden Orten sind also selbst die besten Computer nicht fähig, in halbwegs kurzer Zeit eine exakte Lösung zu finden. Deshalb wurden bereits viele verschiedene Annäherungen erarbeitet, um wenn auch nicht die beste, dann eine der besten Lösungen zu finden. Das Christkind muss über eine ganz besonders gute Lösung für das Problem des Handlungsreisenden verfügen um in einem einzigen Abend alle Haushalte in Österreich besuchen zu können&amp;hellip;&lt;/p&gt;
+
+&lt;h4 id=&#34;weiterführende-links&#34;&gt;Weiterführende Links&lt;/h4&gt;
+
+&lt;p&gt;10 Lines Of Coding (as shown in video): &lt;a href=&#34;https://ericphanson.com/blog/2016/the-traveling-salesman-and-10-lines-of-python/&#34;&gt;https://ericphanson.com/blog/2016/the-traveling-salesman-and-10-lines-of-python/&lt;/a&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
