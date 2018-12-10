@@ -54,7 +54,15 @@
       <pubDate>Mon, 12 Nov 2018 17:02:52 +0100</pubDate>
       
       <guid>http://biotop.co/xmascal/days/12/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu p
+      <description>&lt;p&gt;In the northern hemisphere, daylight dwindles as we approach Christmas - or winter solstice to be more precise. Therefore, it should come to no surprise that we&amp;rsquo;ve developed the custom of putting up nice incandescent decorations to combat the darkness: city centres bathed in Christmas lights, houses adorned with - or at times disfigured by - glowing Christmas decorations; candles lit on the Christmas tree or advent wreath. There&amp;rsquo;s really no shortage of occasions to ponder the magnificence, the warmth, or indeed the physics of light!&lt;/p&gt;
+
+&lt;p&gt;Yet, today, we shall take a rather unusual perspective. Rather than looking into what makes a burning candle glow, or investigating how we can make a wire light up by sending electrons through it, we are turning to a more unusual, but nonetheless fascinating curiosity - the phenomenon of molecules that emit light without the involvement of heat, more accurately referred to as luminescence.&lt;/p&gt;
+
+&lt;p&gt;All molecules are made of atoms, which, in turn, are composed of protons and neutrons that form a nucleus, and electrons that surround it. When atoms form molecules, electrons are shared between the nuclei of different atoms, thereby satisfying the thirst for electrons of each nucleus. In very simple terms, that&amp;rsquo;s what chemical bonds are all about. These shared electrons are negatively charged and attracted by the positively charged nuclei. However, it depends on the nature of the chemical elements that make up the molecule how strong this attraction is. Depending on how strongly electrons are attracted, they can be said to have a different energy.&lt;/p&gt;
+
+&lt;p&gt;The beginning of the 20th century marked a turning point in the physics of very small things - and by extension molecules. The work of the pioneers of quantum mechanics has led us to realise that energy comes in very small, clearly defined packages, rather than in a continuum. The energy of electrons in a molecule is no exception: Electrons in a chemical bond sit at a very clearly defined energy level, called the ground-state, and it is only the lowest of many possible ones.&lt;/p&gt;
+
+&lt;p&gt;By shining a light of a particular colour - or, put more precisely, of a defined wavelength - onto a molecule, we can provide the electrons in the chemical bond of this molecule with just the right amount of energy to lift them to the next level. Once there, they&amp;rsquo;ll generally stay up there for a short time, before they fall back to their ground state. Energy can&amp;rsquo;t be lost, though, it can only be converted. So, what happens with the energy that we put into the molecule by shining a light at it? Some of it makes molecules jiggle a lot and is ultimately converted into heat, while some of it may be in turn released in the form of light, but with less energy - or in other words a more reddish colour than the light we originally used to &amp;ldquo;excite&amp;rdquo; the molecule. This is one form of luminescence in a nutshell. It is the reason why your G&amp;amp;T glows in a pale blue when you&amp;rsquo;re in a club, which has UV lights on, it is the reason why glow-in-the-dark paint works and it is but a small taste of the many wonders that await in the world of glowing matter&amp;hellip;
 &lt;/p&gt;</description>
     </item>
     
@@ -213,9 +221,7 @@ The group, consisting of 30 young scientists and designers, has been active for 
 
 &lt;p&gt;Cheers!&lt;/p&gt;
 
-&lt;p&gt;Ps: The R scripts that were used to query Google ngrams/ trends and plot the respective correlations can be found in &lt;a href=&#34;https://github.com/biotop/spurious-correlations-christmas.git&#34;&gt;our Github repository&lt;/a&gt;.  Feel free to use them to search for other (spurious) correlations or have a look at the &lt;a href=&#34;https://www.google.com/trends/correlate&#34;&gt;Google correlate project&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Ps: The R scripts that were used to query Google ngrams/ trends and plot the respective correlations can be found in &lt;a href=&#34;https://github.com/biotop/spurious-correlations-christmas.git&#34;&gt;our Github repository&lt;/a&gt;.  Feel free to use them to search for other (spurious) correlations or have a look at the &lt;a href=&#34;https://www.google.com/trends/correlate&#34;&gt;Google correlate project&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
