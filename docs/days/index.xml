@@ -19,6 +19,14 @@
       <guid>http://biotop.co/xmascal/days/16/</guid>
       <description>&lt;p&gt;Origami is an awesome artform! In transforming flat paper into intricate three dimensional shapes, it marries craftwmanship with a beautiful sort of mathematical ingenuity. To an architect, origami is not only a source of inspiration, but also a reflection of the very essence of architecture itself. It is the perfect metaphor to express what we try to achieve with Biotop: ideas, rigor and accessible materials that are transformed into things of beauty as well as practical use.&lt;/p&gt;
 
+&lt;blockquote&gt;
+&lt;h4 id=&#34;about-the-authors&#34;&gt;About the authors&lt;/h4&gt;
+
+&lt;p&gt;As an architect &lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/ralf-bliem/&#34;&gt;Ralf Bliem&lt;/a&gt;&lt;/strong&gt; has a special interest in generative planing processes and modular design. He studied architecture at the UT Vienna and TU Berlin, also he worked at renowned architecture offices in Berlin and Vienna. Ralf is a co-founder of Biotop and at the moment he works with Biotop on the modular design of labs and some more interesting tasks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/lukas-hutter/&#34;&gt;Lukas Hutter&lt;/a&gt;&lt;/strong&gt; studied chemistry in Graz and Systems Biology at the University of Oxford. He is a co-founder of Biotop and works as a teacher in Villach.s&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
@@ -34,6 +42,7 @@
 
 &lt;p&gt;If you are interested, but you cannot make it to our workshop, you can find the design at &lt;a href=&#34;http://spectralworkbench.org&#34;&gt;spectralworkbench.org&lt;/a&gt; and watch &lt;a href=&#34;https://www.youtube.com/watch?v=hZkVYuw4pJ4&#34;&gt;a video with detailed instructions&lt;/a&gt; online.&lt;/p&gt;
 
+&lt;blockquote&gt;
 &lt;h4 id=&#34;about-the-author&#34;&gt;About the author&lt;/h4&gt;
 
 &lt;p&gt;Anna Wächter-Mittersteiner is a molecular biologist. She studied in Vienna and Zurich and conducted research on signal processing in immune system. At the moment she is in charge of science communication workshops at Biotop.
@@ -53,6 +62,12 @@ The gingerbread movement began in 1881, with the construction of the Haitian Nat
 As the houses are expensive to maintain, today many of them fall into disrepair by natural aging, although they withstood the the 2010 earthquake better than modern concrete buildings. In 2010, the Gingerbread Houses of Haiti were included on the World Monuments Watch.&lt;/p&gt;
 
 &lt;p&gt;If you want to stroll around in a city that is actually made out of gingerbread you have to visit the Museum of Architecture in London. Every year a group of architects, designers and engineers create an entire gingerbread city, with “&amp;hellip;the aim [&amp;hellip;] to connect the public with architecture through an innovative display designed for the holiday season.” This year&amp;rsquo;s exhibition &amp;lsquo;Imagining the Future City&amp;rsquo; is on from the 8th of December 2018 to the 6th of January 2019, if you happen to be in the vicinity. Enjoy without tasting!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h4 id=&#34;about-the-authors&#34;&gt;About the authors&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/anna-ritscher/&#34;&gt;Anna Ritscher&lt;/a&gt;&lt;/strong&gt; studied chemistry in Vienna and completed her PhD in Berlin, focusing on solid state chemistry. Currently, she is working at Biotop, of which she is a co-founder, developing modular lab spaces and citizen science projects.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h4 id=&#34;references&#34;&gt;References:&lt;/h4&gt;
 
@@ -82,7 +97,8 @@ As the houses are expensive to maintain, today many of them fall into disrepair 
 &lt;blockquote&gt;
 &lt;h3 id=&#34;about-the-author&#34;&gt;About the author&lt;/h3&gt;
 
-&lt;p&gt;As an archaeologist &lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/martin-fera/&#34;&gt;Martin Fera&lt;/a&gt;&lt;/strong&gt; has researched pharaonic graves in Sudan, bronze age saltmines in Hallstatt or viking burials in Norway. Currently, his research is focused on using data from landscape scans to better understand early iron age cultures in Europe.&lt;/p&gt;
+&lt;p&gt;As an archaeologist &lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/martin-fera/&#34;&gt;Martin Fera&lt;/a&gt;&lt;/strong&gt; has researched pharaonic graves in Sudan, bronze age saltmines in Hallstatt or viking burials in Norway. Currently, his research is focused on using data from landscape scans to better understand early iron age cultures in Europe.
+As an architect &lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/ralf-bliem/&#34;&gt;Ralf Bliem&lt;/a&gt;&lt;/strong&gt; has a special interest in generative planing processes and modular design. He studied architecture at the UT Vienna and TU Berlin, also he worked at renowned architecture offices in Berlin and Vienna. Ralf is a co-founder of Biotop and at the moment he works with Biotop on the modular design of labs and some more interesting tasks.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -120,6 +136,14 @@ As the houses are expensive to maintain, today many of them fall into disrepair 
       <description>&lt;p&gt;The travelling salesman problem is about finding the shortest route between a number of places, visiting each place only once before returning to the starting position. In the attached video, we show the result of a simple algorithm that uses one of many available optimisation approaches to find the shortest route between the central points of all countries. The shortest route can mean shortest by distance or travelling time, or the most cost-effective (or any other measurable quantity or combinations thereof that should be minimised). For a small number of places one wants to visit, it is still relatively easy to calculate all possible round-trips and rank them to find the shortest/best one. However, with a growing number of “cities” on the itinerary, the problem gets very hard to solve indeed. For example given 10 places to visit, there are already a staggering 10! = 3,628,800 number of possible routes. Trying to solve these kind of problems exactly for a large number of position would take much too long even with good computers. Therefore, approximations to solving the travelling salesman problem have been worked out.&lt;/p&gt;
 
 &lt;p&gt;Finding good approaches to address this problem are important in many areas: logistics - the efficient and timely delivery of goods -  is an obvious one. When drilling holes in circuit boards, which requires the drilling of many, many thousands of holes, having an efficient ways of doing so can save a company time and money. On a more personal level, you can also use solutions to the travelling salesman problem to optimise your Christmas shopping route. The “Christkind” must have a particularly neat solution at hand, given that it manages to visit every single household in Austria in just a single night.&lt;/p&gt;
+
+&lt;h4 id=&#34;about-the-authors&#34;&gt;About the authors&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/anna-koeferle/&#34;&gt;Anna Köferle&lt;/a&gt;&lt;/strong&gt; studied Molecular and Cellular Biochemistry at the University of Oxford and then completed a PhD at University College London. She is interested in gene regulation, epigenetics and everything to do with the gene editing tool &amp;ldquo;CRISPR&amp;rdquo;. Since starting as a researcher at Ludwig-Maximilians-Universität in Munich two years ago, she has also developed some interest in topics relating to neurobiology.&lt;/p&gt;
+
+&lt;p&gt;As an architect &lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/ralf-bliem/&#34;&gt;Ralf Bliem&lt;/a&gt;&lt;/strong&gt; has a special interest in generative planing processes and modular design. He studied architecture at the UT Vienna and TU Berlin, also he worked at renowned architecture offices in Berlin and Vienna. Ralf is a co-founder of Biotop and at the moment he works with Biotop on the modular design of labs and some more interesting tasks.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h4 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h4&gt;
 
@@ -163,7 +187,8 @@ All species of deer belong to the &lt;em&gt;Artiodactyla&lt;/em&gt; order of mam
 &lt;blockquote&gt;
 &lt;h3 id=&#34;about-the-authors&#34;&gt;About the authors&lt;/h3&gt;
 
-&lt;p&gt;As an archaeologist &lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/martin-fera/&#34;&gt;Martin Fera&lt;/a&gt;&lt;/strong&gt; has researched pharaonic graves in Sudan, bronze age saltmines in Hallstatt or viking burials in Norway. Currently, his research is focused on using data from landscape scans to better understand early iron age cultures in Europe.&lt;/p&gt;
+&lt;p&gt;As an archaeologist &lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/martin-fera/&#34;&gt;Martin Fera&lt;/a&gt;&lt;/strong&gt; has researched pharaonic graves in Sudan, bronze age saltmines in Hallstatt or viking burials in Norway. Currently, his research is focused on using data from landscape scans to better understand early iron age cultures in Europe.
+As an architect &lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/ralf-bliem/&#34;&gt;Ralf Bliem&lt;/a&gt;&lt;/strong&gt; has a special interest in generative planing processes and modular design. He studied architecture at the UT Vienna and TU Berlin, also he worked at renowned architecture offices in Berlin and Vienna. Ralf is a co-founder of Biotop and at the moment he works with Biotop on the modular design of labs and some more interesting tasks.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -380,7 +405,8 @@ Ever since sweet cookies were introduced to more and more households during the 
 &lt;blockquote&gt;
 &lt;h3 id=&#34;about-the-author&#34;&gt;About the author&lt;/h3&gt;
 
-&lt;p&gt;As an archaeologist &lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/martin-fera/&#34;&gt;Martin Fera&lt;/a&gt;&lt;/strong&gt; has researched pharaonic graves in Sudan, bronze age saltmines in Hallstatt or viking burials in Norway. Currently, his research is focused on using data from landscape scans to better understand early iron age cultures in Europe.&lt;/p&gt;
+&lt;p&gt;As an archaeologist &lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/martin-fera/&#34;&gt;Martin Fera&lt;/a&gt;&lt;/strong&gt; has researched pharaonic graves in Sudan, bronze age saltmines in Hallstatt or viking burials in Norway. Currently, his research is focused on using data from landscape scans to better understand early iron age cultures in Europe.
+As an architect &lt;strong&gt;&lt;a href=&#34;http://biotop.co/en/person/ralf-bliem/&#34;&gt;Ralf Bliem&lt;/a&gt;&lt;/strong&gt; has a special interest in generative planing processes and modular design. He studied architecture at the UT Vienna and TU Berlin, also he worked at renowned architecture offices in Berlin and Vienna. Ralf is a co-founder of Biotop and at the moment he works with Biotop on the modular design of labs and some more interesting tasks.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
