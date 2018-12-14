@@ -4,20 +4,9 @@
   console.log(today);
   for(day = 0; day < 25; day++){
     if(day !== today.getDate()){
-      $('#' + day).hide();
+      $('#' + day).remove();
     } else {
       $('#' + day).show();
     }
   }
-  window.setInterval(function(){
-    now = new Date()
-    console.log(now)
-    for(day = 0; day < 25; day++){
-      if(day !== now.getDate()){
-        $('#' + day).hide();
-      } else {
-        $('#' + day).show();
-      }
-    }
-  }, 60000);
 </script>

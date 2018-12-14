@@ -59,7 +59,7 @@
       </div>
     </div>
     
-      <img src="http://biotop.co/xmascal/img//02/wham.jpg" alt="" style="width:100%;">
+      <img src="http://biotop.co/xmascal/img//15/candle_spectrum.png" alt="" style="width:100%;">
     
   </div>
   
@@ -444,22 +444,11 @@
   console.log(today);
   for(day = 0; day < 25; day++){
     if(day !== today.getDate()){
-      $('#' + day).hide();
+      $('#' + day).remove();
     } else {
       $('#' + day).show();
     }
   }
-  window.setInterval(function(){
-    now = new Date()
-    console.log(now)
-    for(day = 0; day < 25; day++){
-      if(day !== now.getDate()){
-        $('#' + day).hide();
-      } else {
-        $('#' + day).show();
-      }
-    }
-  }, 60000);
 </script>
 
 </main>
