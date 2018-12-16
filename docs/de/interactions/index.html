@@ -39,7 +39,7 @@
 <div id="wrapper" style="margin-top:20px">
   
   <div id="rightcolumn" style="padding-top: 40px;">
-      <p class="call-for-action">Call for action dummy text</p>
+      <p class="call-for-action">Poste dein am schönsten eingepacktes Geschnek mit unserem Hashtag #biotop_advent. Preis: Foldscope!</p>
       <p class="post-meta">
       </p>
   </div>
@@ -53,7 +53,7 @@
 <div id="wrapper" style="margin-top:20px">
   
   <div id="rightcolumn" style="padding-top: 40px;">
-      <p class="call-for-action">Call for action dummy text</p>
+      <p class="call-for-action">Gefallen dir unsere weihnachtlichen Ausflüge in die Wissenschaft? Werde Fördermitglied und unterstütze unsere Aktivitäten! joinus@biotop.co</p>
       <p class="post-meta">
       </p>
   </div>
@@ -381,21 +381,10 @@
   console.log(today);
   for(day = 0; day < 25; day++){
     if(day !== today.getDate()){
-      $('#' + day).hide();
+      $('#' + day).remove();
     } else {
       $('#' + day).show();
     }
   }
-  window.setInterval(function(){
-    now = new Date()
-    console.log(now)
-    for(day = 0; day < 25; day++){
-      if(day !== now.getDate()){
-        $('#' + day).hide();
-      } else {
-        $('#' + day).show();
-      }
-    }
-  }, 60000);
 </script>
 

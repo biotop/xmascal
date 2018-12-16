@@ -16,6 +16,8 @@
       <source src=" {{.Site.BaseURL}}img/{{ .Params.headervideo }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
+    {{ else if .Params.headervimeo }}
+      <img src="{{.Site.BaseURL}}img/{{ .Params.headerimage }}" alt="" style="width:100%;">
     {{ else if .Params.headerimage }}
       <img src="{{.Site.BaseURL}}img/{{ .Params.headerimage }}" alt="" style="width:100%;">
     {{ end }}
