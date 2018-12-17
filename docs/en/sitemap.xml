@@ -183,6 +183,21 @@
   </url>
   
   <url>
+    <loc>http://biotop.co/xmascal/days/18/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/xmascal/de/days/18/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/xmascal/days/18/"
+                />
+  </url>
+  
+  <url>
     <loc>http://biotop.co/xmascal/days/17/</loc>
     <lastmod>2018-11-08T17:02:52+01:00</lastmod>
     <xhtml:link
@@ -209,21 +224,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://biotop.co/xmascal/days/19/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/xmascal/days/18/</loc>
-    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/xmascal/de/days/18/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/xmascal/days/18/"
                 />
   </url>
   
