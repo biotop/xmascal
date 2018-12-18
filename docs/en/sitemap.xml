@@ -213,21 +213,6 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/xmascal/days/19/</loc>
-    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/xmascal/de/days/19/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/xmascal/days/19/"
-                />
-  </url>
-  
-  <url>
     <loc>http://biotop.co/xmascal/days/08/</loc>
     <lastmod>2018-11-08T17:02:52+01:00</lastmod>
     <xhtml:link
@@ -239,6 +224,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://biotop.co/xmascal/days/08/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/xmascal/days/22/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/xmascal/de/days/22/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/xmascal/days/22/"
                 />
   </url>
   
@@ -273,21 +273,6 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/xmascal/days/22/</loc>
-    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/xmascal/de/days/22/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/xmascal/days/22/"
-                />
-  </url>
-  
-  <url>
     <loc>http://biotop.co/xmascal/days/23/</loc>
     <lastmod>2018-11-08T17:02:52+01:00</lastmod>
     <xhtml:link
@@ -314,6 +299,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://biotop.co/xmascal/days/24/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/xmascal/days/19/</loc>
+    <lastmod>2018-11-08T17:02:52+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/xmascal/de/days/19/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/xmascal/days/19/"
                 />
   </url>
   
