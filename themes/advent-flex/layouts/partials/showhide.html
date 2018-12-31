@@ -1,12 +1,18 @@
 <script>
   var today = new Date();
-  // var today = new Date(2006, 12, 22);
+  // var today = new Date(2019, 1, 1);
   console.log(today);
-  for(day = 0; day < 25; day++){
-    if(day !== today.getDate()){
+  if( today.getMonth() == 11){
+    for(day = 0; day < 32; day++){
+      if(day !== today.getDate()){
+        $('#' + day).remove();
+      } else {
+        $('#' + day).show();
+      }
+    }
+  } else {
+    for(day = 0; day < 32; day ++){
       $('#' + day).remove();
-    } else {
-      $('#' + day).show();
     }
   }
 </script>

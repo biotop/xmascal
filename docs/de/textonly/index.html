@@ -498,6 +498,59 @@ Rentiere (Rangifer tarandus) gehören zu der Familie der Hirsche und sind die ei
       </div>
   </article>
   
+  <article id=31 class="post first-entry" style="padding-top:138px">
+      <header class="post-header">
+        <div id="wrapper">
+  <div id="leftcolumn">
+    
+    <div class="numberCircle">
+      <p>31</p>
+    </div>
+    
+  </div>
+  <div id="rightcolumn">
+      <h1 class="post-title">Die Feuerwerksrakete - Ein farbiges Schauspiel</h1>
+      <p class="post-meta">
+        by Anna Ritscher
+      </p>
+      
+  </div>
+</div>
+
+      </header>
+      <div class="post-content textonly">
+        
+          <p><p>Ihr habt bereits von der Legende des Mönchs Li Tian aus Liu Yang (Region Hunan, China) gehört, der der Lende nach den ersten Feuerwerkskracher entwickeln hat. Noch heute ist die Stadt Liu Yang die Hauptstadt des Feuerwerkbaus, mit 900 Fabriken, die zwei Drittel der Weltproduktion übernehmen. Immer noch werden dort die meisten pyrotechnischen Gegenstände von Hand gefertigt.
+Was wäre ein Feuerwerk ohne das Pfeifen einer aufsteigenden Rakete, gefolgt von der Explosion leuchtender Farben, die den Nachthimmel erhellen? Das Gestalten eines imposanten Feuerwerks ist eine eigene Kunstform, nicht umsonst leitet sich das Wort für Feuerwerksbau - Pyrotechnik -  von den griechischen Wörtern Pyr (Feuer) und Tekhnikos (Kunst) ab. Doch ohne Wissen über Physik und Chemie der Pyrotechnik wäre nichts davon möglich. Feuerwerkskörper sind ziemlich komplexe Produkte. Vereinfacht kann man sich ein Feuerwerk als ein Geschoss vorstellen, dass kontrolliert explodiert.
+Eine Feuerwerksrakete besteht aus einer äußeren Hülle, die normalerweise aus Pappe, Kunststoff, Holz oder Ton gefertigt wird. Diese Hülle umschließt die pyrotechnische Mischung, die für den Effekt verantwortlich ist. Der lange Holz- oder Kunststoffstab an der Unterseite der Rakete sorgt dafür, dass das Feuerwerk geradeaus und in die vorgesehene Richtung schießt. Beim Anfachen der Rakete reagiert zuerst die Zündung, welche daraufhin die Treib-  und anschließend die Effektladung entzündet. Bei großen Feuerwerk-Shows wird die Zündung durch elektrische Kontakte, sogenannte Wirebridge-Zündungen, aktiviert.
+Die Treibladung besteht normalerweise aus dicht gepacktem, grobkörnigen Schießpulver. Es ist ein relativ einfacher Sprengstoff und ist nur dafür verantwortlich, dass die Feuerwerksrakete hoch in den Himmel geschossen wird. Das farbige Leuchten ist das Ergebnis der sogenannten Effektladung. Die Feuerwerksrakete kann entweder eine Ladung oder mehrere in getrennten Kammern verpackte Ladungen,  beinhalten. Die pyrotechnische Ladung besteht aus einem Metallsalz und einem Oxidationsmittel, welches den Sauerstoff für die Verbrennung liefert.Während der Verbrennung des Gemisches wird genug Energie frei, um ein Elektron in einen höheren Energiezustand zu bringen. Wenn das Elektron in seinen Grundzustand zurückfällt, wird die Energie in Form von Lichtenergie freigesetzt. Photonen werden emittiert, die wir als leuchtende Funken am Himmel wahrnehmen.</p>
+
+<p>Die Farbe der Leuchtrakete hängt vom verwendeten Metallsalz ab. Natrium zeigt beispielsweise ein gelbes Licht (590 nm), während für das rote Licht (605 - 682 nm) meistens Strontiumsalze verwendet werden. Bariumsalze emittieren Licht bei einer Wellenlänge von 490 - 560 nm, welches grün ist. Blaues Licht (Wellenlänge von 435 - 440 nm) wird hauptsächlich mit Kupfersalzen erzeugt.</p>
+
+<p>In Europa werden Feuerwerke normalerweise zum Jahreswechsel gezündet. Warum das? Dies geht wahrscheinlich auf die alten Germanen zurück. Diese glaubten während der sogenannten Rauhnächten (25. Dez.- 6.Jan) von bösen Geistern heimgesucht zu werden. Sie fürchteten besonders den Silvesterabend und versuchten mit lautem Lärm und Lichtern die beängstigende Dunkelheit und die bösen Geister zu vertreiben. Hoffentlich hat es geklappt!</p>
+
+<blockquote>
+<h4 id="über-die-autorin">Über die Autorin</h4>
+
+<p><strong><a href="http://biotop.co/en/person/anna-ritscher/">Anna Ritscher</a></strong> studierte Chemie in Wien und promovierte an der TU Berlin mit dem Schwerpunkt Festkörperchemie. Als Mitbegründerin von Biotop arbeitet sie derzeit an modularen Laborinfrastrukturen und Citizen Science Projekten.</p>
+</blockquote>
+
+<p></p></p>
+        
+        
+<div id="wrapper" style="margin-top:20px">
+  
+  <div id="rightcolumn" style="padding-top: 40px;">
+      <p class="call-for-action"></p>
+      <p class="post-meta">
+      </p>
+  </div>
+</div>
+
+
+      </div>
+  </article>
+  
   <article id=22 class="post first-entry" style="padding-top:138px">
       <header class="post-header">
         <div id="wrapper">
@@ -1287,11 +1340,17 @@ Gerüche und Geschmäcker sind mächtige Zeitmaschinen und können uns, viel bes
   var today = new Date();
   
   console.log(today);
-  for(day = 0; day < 25; day++){
-    if(day !== today.getDate()){
+  if( today.getMonth() == 11){
+    for(day = 0; day < 32; day++){
+      if(day !== today.getDate()){
+        $('#' + day).remove();
+      } else {
+        $('#' + day).show();
+      }
+    }
+  } else {
+    for(day = 0; day < 32; day ++){
       $('#' + day).remove();
-    } else {
-      $('#' + day).show();
     }
   }
 </script>

@@ -749,6 +749,60 @@ All species of deer belong to the <em>Artiodactyla</em> order of mammals which i
       </div>
   </article>
   
+  <article id=31 class="post first-entry" style="padding-top:138px">
+      <header class="post-header">
+        <div id="wrapper">
+  <div id="leftcolumn">
+    
+    <div class="numberCircle">
+      <p>31</p>
+    </div>
+    
+  </div>
+  <div id="rightcolumn">
+      <h1 class="post-title">Fireworks: Colorful Glow</h1>
+      <p class="post-meta">
+        by Anna Ritscher
+      </p>
+      
+  </div>
+</div>
+
+      </header>
+      <div class="post-content textonly">
+        
+          <p><p>According to legend, the monk Li Tian of Liu Yang (Hunan region, China) is said to have developed the first fire cracker. Even today, the city of Liu Yang is the capital of fireworks, with approximately 900 factories accounting for two thirds of the global production. And still to this day, most of the local pyrotechnic products are made by hand.</p>
+
+<p>What would a firework be without the whistling sound of an ascending rocket followed by a display of brilliant colors that illuminate the night sky? Creating an imposing fireworks display is an art form of its own, it is no coincidence that the technical term for creating fireworks - <strong>pyrotechnics</strong> - comes from the Greek words <em>pyr</em> (fire) and <em>tekhnikos</em> (art). Without the knowledge of the physics and chemistry behind pyrotechnics, none of this would be possible. Fireworks are rather complex products. It is possible to think of them as missiles designed to explode in a controlled way.
+A rocket consists of an outer shell, normally made of cardboard, plastic, wood or clay. This shell encloses the pyrotechnic mixture which is responsible for the effect. The long wooden or plastic stick at the bottom of the rocket is used to ensure the firework shoots upwards in a straight line in the intended direction. When igniting the rocket the fuse reacts first and starts the main part of the firework, the charge and the effect. In a complex public firework display, fuses are lit by electrical contacts, called wirebridge fuseheads.</p>
+
+<p>The charger is usually made of tightly packed, coarse gunpowder that is designed to send the firework up into the sky. It is a rather simple explosive and has nothing to do with the colorful spectacle in the dark. This is the result of the so called “effect load”. The firework rocket can either have one load or multiple loads that are packed into separated compartments and are causing a series of smaller explosions. The pyrotechnic substance consists of a metal salt and an oxidizer that provides the oxygen for combustion.
+During the burning of the mixture enough energy is produced to raise an electron to a higher energy state. When the electron falls back to its ground state, the energy is released in form of light energy, a photon is emitted. This reaction is responsible for the colorful glow in the sky.</p>
+
+<p>The color of the flare depends on the metal substances used. Sodium, for example, shows a yellow light (590 nm), whereas strontium salts can be used for red light (605 - 682 nm). Barium salts emit light at a wavelength of 490 - 560 nm, giving them a green hue. Blue (435 - 440 nm) is mostly generated using copper salts. In Europe, people traditionally light fireworks for the turn of the year. Why is that? This probably goes back to the ancient Teutons. They believed that during the so called “Rauhnächten” (25.Dec - 6.Jan) evil spirits came to haunt them. They especially feared New Year’s Eve and with loud noise and light they aimed to drive out the darkness and the evil ghosts. Hopefully it worked!</p>
+
+<blockquote>
+<h4 id="about-the-author">About the author</h4>
+
+<p><strong><a href="http://biotop.co/en/person/anna-ritscher/">Anna Ritscher</a></strong> studied chemistry in Vienna and completed her PhD in Berlin, focusing on solid state chemistry. Currently, she is working at Biotop, of which she is a co-founder, developing modular lab spaces and citizen science projects.</p>
+</blockquote>
+
+<p></p></p>
+        
+        
+<div id="wrapper" style="margin-top:20px">
+  
+  <div id="rightcolumn" style="padding-top: 40px;">
+      <p class="call-for-action"></p>
+      <p class="post-meta">
+      </p>
+  </div>
+</div>
+
+
+      </div>
+  </article>
+  
   <article id=17 class="post first-entry" style="padding-top:138px">
       <header class="post-header">
         <div id="wrapper">
@@ -1307,11 +1361,17 @@ This heat transfer can be imagined in detail: If a cool air molecule collides wi
   var today = new Date();
   
   console.log(today);
-  for(day = 0; day < 25; day++){
-    if(day !== today.getDate()){
+  if( today.getMonth() == 11){
+    for(day = 0; day < 32; day++){
+      if(day !== today.getDate()){
+        $('#' + day).remove();
+      } else {
+        $('#' + day).show();
+      }
+    }
+  } else {
+    for(day = 0; day < 32; day ++){
       $('#' + day).remove();
-    } else {
-      $('#' + day).show();
     }
   }
 </script>

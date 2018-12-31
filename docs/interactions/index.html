@@ -230,6 +230,20 @@
 
   </article>
   
+  <article id=31 class="post first-entry">
+      
+<div id="wrapper" style="margin-top:20px">
+  
+  <div id="rightcolumn" style="padding-top: 40px;">
+      <p class="call-for-action"></p>
+      <p class="post-meta">
+      </p>
+  </div>
+</div>
+
+
+  </article>
+  
   <article id=17 class="post first-entry">
       
 <div id="wrapper" style="margin-top:20px">
@@ -379,11 +393,17 @@
   var today = new Date();
   
   console.log(today);
-  for(day = 0; day < 25; day++){
-    if(day !== today.getDate()){
+  if( today.getMonth() == 11){
+    for(day = 0; day < 32; day++){
+      if(day !== today.getDate()){
+        $('#' + day).remove();
+      } else {
+        $('#' + day).show();
+      }
+    }
+  } else {
+    for(day = 0; day < 32; day ++){
       $('#' + day).remove();
-    } else {
-      $('#' + day).show();
     }
   }
 </script>
