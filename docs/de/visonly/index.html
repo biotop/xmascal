@@ -463,20 +463,14 @@
 </script>
 
 <script>
-  var today = new Date();
   
+  var today = new Date(2018, 11, 24);
   console.log(today);
-  if( today.getMonth() == 11){
-    for(day = 0; day < 32; day++){
-      if(day !== today.getDate()){
-        $('#' + day).remove();
-      } else {
-        $('#' + day).show();
-      }
-    }
-  } else {
-    for(day = 0; day < 32; day ++){
+  for(day = 0; day < 32; day++){
+    if(day !== today.getDate()){
       $('#' + day).remove();
+    } else {
+      $('#' + day).show();
     }
   }
 </script>
